@@ -1,0 +1,48 @@
+{
+  "genderBreakdown": [
+    { "label": "Female", "n": 299, "motherPct": 65.2, "taste": 47.8, "brandTrust": 26.8, "appearance": 16.4, "price": 6.4 },
+    { "label": "Male",   "n": 307, "motherPct": 53.7, "taste": 46.0, "brandTrust": 26.4, "appearance": 12.1, "price": 11.4 }
+  ],
+  "ageBreakdown": [
+    { "label": "21–24", "n": 40,  "motherPct": 75.0, "brandTrust": 32.5 },
+    { "label": "25–34", "n": 185, "motherPct": 61.6, "brandTrust": 21.6 },
+    { "label": "35–44", "n": 194, "motherPct": 53.1, "brandTrust": 24.2 },
+    { "label": "45–54", "n": 122, "motherPct": 59.0, "brandTrust": 35.2 },
+    { "label": "55–65", "n": 55,  "motherPct": 65.5, "brandTrust": 27.3 },
+    { "label": "65+",   "n": 18,  "motherPct": 55.6, "brandTrust": 38.9 }
+  ],
+  "activityBreakdown": [
+    { "label": "Minimally Active",   "n": 70,  "motherPct": 54.3, "appearance": 15.7 },
+    { "label": "Lightly Active",     "n": 119, "motherPct": 56.3, "appearance": 15.1 },
+    { "label": "Moderately Active",  "n": 195, "motherPct": 60.5, "appearance": 12.8 },
+    { "label": "Active (4-5 days)",  "n": 183, "motherPct": 66.7, "appearance": 11.5 },
+    { "label": "Very Active (6-7 days)", "n": 47, "motherPct": 42.6, "appearance": 27.7 }
+  ],
+  "alcoholFrequencyBreakdown": [
+    { "label": "Never",              "n": 83,  "motherPct": 49.4, "brandTrust": 18.1, "appearance": 25.3, "taste": 37.3 },
+    { "label": "< once / month",     "n": 114, "motherPct": 68.4, "brandTrust": 38.6, "appearance": 17.5, "taste": 29.8 },
+    { "label": "1–3× / month",       "n": 171, "motherPct": 60.8, "brandTrust": 25.1, "appearance": 10.5, "taste": 50.9 },
+    { "label": "Once / week",        "n": 106, "motherPct": 59.4, "brandTrust": 21.7, "appearance": 16.0, "taste": 56.6 },
+    { "label": "2–3× / week+",       "n": 140, "motherPct": 56.4, "brandTrust": 28.6, "appearance": 8.6,  "taste": 52.1 }
+  ],
+  "naBeerFrequencyBreakdown": [
+    { "label": "Never",         "n": 208, "motherPct": 62.0, "brandTrust": 26.7, "appearance": 21.0, "taste": 37.6 },
+    { "label": "Tried once",    "n": 120, "motherPct": 64.2, "brandTrust": 28.0, "appearance": 18.0, "taste": 42.0 },
+    { "label": "Occasionally",  "n": 211, "motherPct": 55.9, "brandTrust": 22.0, "appearance": 14.0, "taste": 50.0 },
+    { "label": "Regularly",     "n": 67,  "motherPct": 53.7, "brandTrust": 16.2, "appearance": 11.8, "taste": 54.4 }
+  ],
+  "educationBreakdown": [
+    { "label": "High school or below", "n": 169, "motherPct": 66.9 },
+    { "label": "Associate's degree",   "n": 99,  "motherPct": 55.6 },
+    { "label": "Bachelor's degree",    "n": 236, "motherPct": 58.1 },
+    { "label": "Graduate degree+",     "n": 102, "motherPct": 53.9 }
+  ],
+  "keyDemographicFindings": [
+    "Gender is the strongest demographic predictor of mother-brand preference (chi-sq p=0.016). Female participants choose mother brands at 65.2% vs 53.7% for males — an 11.5 pp gap driven primarily by elevated preference for Corona Sunbrew.",
+    "The 21–24 cohort shows the highest mother-brand preference at 75.0%, reflecting young consumers' reliance on globally recognised brand names as cognitive shortcuts in an unfamiliar product category.",
+    "Physical activity is one of only two variables reaching statistical significance (p=0.028). Active consumers (4–5 days/week) peak at 66.7%, but Very Active consumers (6–7 days/week) drop to 42.6% — the only demographic segment below 50%.",
+    "NA beer experience reduces mother-brand reliance: preference declines from 63.7% among first-time triers to 54.4% among regular consumers, with Brand Trust dropping from 26.7% to 16.2% as experience increases.",
+    "Income shows no significant relationship with mother-brand selection (p=0.900) — preference is remarkably stable at 55–63% across the full income spectrum.",
+    "Education shows a negative directional relationship (p=0.091): high school or below 67.3% vs graduate degree holders at 53.8%, consistent with higher education correlating with greater brand exploration."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "stages": [
+    {
+      "id": "stage1",
+      "title": "Methodological Framework",
+      "bullet_one":  "Sampling criteria and selection procedures were defined using a stratified approach to ensure representation across relevant consumer segments.",
+      "bullet_two":  "A comparative framework was developed to evaluate products associated with established mother brands against standalone non-mother brand alternatives.",
+      "bullet_three":  "Key outcome metrics were specified, and standardized procedures for data collection were formalized.",
+      "description": "The initial stage established the methodological structure of the study."},
+    {
+      "id": "stage2",
+      "title": "Construction of the Storefront",
+      "bullet_one":  "An interactive, web-based platform was designed and implemented to simulate a standard online purchasing interface.",
+      "bullet_two":  "The primary outcome was a functional, realistic storefront that enabled controlled observation of consumer choices during the experiment.",
+      "bullet_three":  null,
+      "description": "This stage focused on developing the experimental environment required to replicate a realistic shopping context."},
+    {
+      "id": "stage3",
+      "title": "Pilot Testing",
+      "bullet_one":  "Initial trials were conducted to evaluate the flow, clarity, and effectiveness of the experimental protocol.",
+      "bullet_two":  "Technical, procedural, and participant-related issues were documented and analyzed.",
+      "bullet_three":  "Adjustments were implemented based on pilot findings to improve reliability, minimize bias, and ensure readiness for the full experiment.",
+      "description": "This stage validated the experimental procedures prior to full deployment."},
+    {
+      "id": "stage4",
+      "title": "Experiment Execution",
+      "bullet_one": "The study was conducted across predefined consumer segments in accordance with the finalized protocol.",
+      "bullet_two": "All required data points were collected using standardized procedures to ensure accuracy and consistency.",
+      "bullet_three": "Quality controls were applied throughout the process to maintain protocol compliance and data integrity.",
+      "description": "This phase involved the systematic implementation of the finalized experimental design and primary data collection."
+    },
+    {
+      "id": "stage5",
+      "title": "Analysis",
+      "bullet_one": "Statistical methods were applied to test hypotheses and derive evidence-based conclusions.",
+      "bullet_two": "Models were developed to estimate preference shares, define segmentation thresholds, and identify sentiment themes.",
+      "bullet_three": "Results were synthesized into actionable insights for corporate and policy decision-making.",
+      "description": "In this final stage, collected data were analyzed and translated into operational and strategic insights."
+    }
+
+  ],
+  "experimentFlow": [
+    {
+      "id": "flow1",
+      "title": "Participant Journey",
+      "bullets": [
+        "Informed consent and study introduction",
+        "Screening and demographic data collection",
+        "One-on-one product comparison tasks",
+        "Multi-brand comparison tasks",
+        "Post-experiment sentiment survey and completion"
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,40 @@
+{
+  "motherBrandByRegion": [
+    { "label": "Northeast", "pooled": 54.0, "varA": 52.3, "varB": 62.2, "varC": 48.0 },
+    { "label": "Midwest",   "pooled": 60.4, "varA": 53.5, "varB": 63.0, "varC": 64.0 },
+    { "label": "South",     "pooled": 67.2, "varA": 73.8, "varB": 66.7, "varC": 62.0 },
+    { "label": "West",      "pooled": 55.9, "varA": 52.4, "varB": 62.8, "varC": 52.9 }
+  ],
+  "regionalSeries": [
+    { "key": "varA", "label": "Variant A" },
+    { "key": "varB", "label": "Variant B" },
+    { "key": "varC", "label": "Variant C" }
+  ],
+  "brandByRegion": [
+    { "label": "Heineken 0.0",    "northeast": 14.4, "midwest": 15.1, "south": 17.2, "west": 20.6 },
+    { "label": "Corona Sunbrew",  "northeast": 30.9, "midwest": 35.3, "south": 40.3, "west": 28.7 },
+    { "label": "Budweiser Zero",  "northeast": 8.6,  "midwest": 10.1, "south": 9.7,  "west": 6.6  },
+    { "label": "O'Doul's Golden", "northeast": 5.0,  "midwest": 9.4,  "south": 13.4, "west": 5.1  },
+    { "label": "Clausthaler",     "northeast": 14.4, "midwest": 5.0,  "south": 7.5,  "west": 14.0 },
+    { "label": "Rescue Club IPA", "northeast": 26.6, "midwest": 25.2, "south": 11.9, "west": 25.0 }
+  ],
+  "regionalInsights": [
+    { "region": "South",     "motherPct": 67.2, "priceEffect": "-7.1pp (reversal)", "oosEffect": "-4pp", "profile": "Conviction market. Consumers choose by brand heritage, not price. Price promotions are unnecessary. Corona dominant (40%). Maintain salience." },
+    { "region": "Midwest",   "motherPct": 60.4, "priceEffect": "+9.6pp",            "oosEffect": "-8pp", "profile": "Category entry market. Highest NA-beer-naive share (37.4%). Trial-driving distribution and first-purchase incentives are optimal." },
+    { "region": "West",      "motherPct": 55.9, "priceEffect": "+10.4pp",           "oosEffect": "+4pp", "profile": "Brand equity market. Heineken's strongest individual market (21%). Premium/import positioning and standalone brand equity work here." },
+    { "region": "Northeast", "motherPct": 54.0, "priceEffect": "+9.9pp",            "oosEffect": "+6pp", "profile": "Craft challenge market. Rescue Club 27% + Clausthaler 14%. Packaging innovation and taste-forward campaigns to convert latent demand." }
+  ],
+  "purchaseFactorsByRegion": [
+    { "label": "Northeast", "taste": 51.1, "brandTrust": 24.5, "appearance": 18.0, "price": 2.2,  "health": 4.3 },
+    { "label": "Midwest",   "taste": 44.6, "brandTrust": 22.3, "appearance": 17.3, "price": 10.8, "health": 5.0 },
+    { "label": "South",     "taste": 49.3, "brandTrust": 26.9, "appearance": 9.7,  "price": 12.7, "health": 1.5 },
+    { "label": "West",      "taste": 41.9, "brandTrust": 31.6, "appearance": 14.7, "price": 11.0, "health": 0.7 }
+  ],
+  "factorByRegionSeries": [
+    { "key": "taste",      "label": "Taste/Flavour" },
+    { "key": "brandTrust", "label": "Brand Trust" },
+    { "key": "appearance", "label": "Appearance" },
+    { "key": "price",      "label": "Price" },
+    { "key": "health",     "label": "Health" }
+  ]
+}

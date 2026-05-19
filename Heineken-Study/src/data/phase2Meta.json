@@ -1,0 +1,11 @@
+{
+  "title": "Sober Spirits Report: Study – II",
+  "subtitle": "MIT CTL x Heineken",
+  "date": "April 2026",
+  "fullTitle": "Sober Spirits – MIT x Heineken Report 2026",
+  "abstract": "This report presents findings from Phase 2 of the MIT × Heineken research collaboration, titled Sober Spirits, which examines the role of mother-brand equity in driving consumer choice within a fully competitive, simulated e-commerce environment. Building on Phase 1 (Sustainable Sips, December 2025), this phase moves beyond controlled one-to-one comparisons and places participants in a realistic online store stocked with six real non-alcoholic beer brands available in the US market.\n\nA total of 614 eligible US residents were recruited via Prolific and randomly assigned to one of three experimental variants. Variant A (n=203) exposed participants to real-world retail prices to capture purchase behavior as it occurs in the market. Variant B (n=210) equalized prices across all brands to isolate the effect of brand equity alone. Variant C (n=201) introduced a simulated out-of-stock scenario to measure brand loyalty and switching behavior. Data were collected in April 2026 using a custom-built web application hosted on Replit.\n\nThe findings are clear and consistent across all three variants. Mother brands, defined as non-alcoholic products from established alcoholic parent companies, collectively captured 58% to 63% of all product selections, a rate significantly above what would be expected if choices were brand-neutral. When pricing is equalized, Heineken's selection share increases by 7.2 percentage points, suggesting that its current real-world pricing is suppressing demand relative to its underlying brand strength. Among all brands, Heineken attracts the highest proportion of brand-trust-driven buyers, with 63% of Heineken purchasers citing brand trust as their primary reason for selection. Additionally, when Corona Sunbrew is out of stock, Heineken is the single most common alternative chosen, receiving 42% of all displaced Corona buyers.",
+  "sampleSize": "n = 614",
+  "variants": "3 experimental variants",
+  "geography": "US only",
+  "platform": "Prolific"
+}

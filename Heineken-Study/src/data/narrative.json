@@ -1,0 +1,28 @@
+{
+  "abstract": "This report presents results from a 2025 experimental study on the influence of established mother brands on consumer selection of non-alcoholic beer across heterogeneous shopper segments. Using controlled experimental designs, the analysis integrates preference-share estimation, brand perception metrics, sentiment analysis, and discrepancy diagnostics. The objective is to assess whether non-alcoholic beers associated with established mother brands are selected more frequently than standalone alternatives, to quantify the relationship between brand perceptions and purchase behavior, and to evaluate differences between regular alcohol consumers and non-drinkers.",
+  "context": [
+    "Heineken is a global brewing company distributing products in more than 190 countries, with origins dating to 1873. As one of the world’s largest beer brands, it operates an extensive network of production facilities and logistics systems that must continuously adjust to shifts in consumer demand. Changes in consumption patterns, particularly among younger and health-conscious segments, have direct implications for production planning, inventory management, and long-term market positioning.",
+    "In 2013, Heineken joined the International Alliance for Responsible Drinking, reflecting a commitment to reducing harmful alcohol consumption alongside other major producers. During the same period, the availability of non-alcoholic beer expanded substantially, altering the competitive landscape of the beverage market. Established breweries began to diversify their portfolios in response to evolving preferences. In 2017, Heineken entered the segment with the launch of Heineken 0.0, a non-alcoholic version of its flagship product and a strategic step into the zero-alcohol category.",
+    "The contemporary beverage market now includes a broad range of non-alcoholic options offered by both established alcohol producers and companies focused exclusively on alcohol-free products. Prior research indicates that greater availability of non-alcoholic alternatives can reduce alcohol consumption. However, there is limited empirical evidence on consumer responses when established alcohol brands introduce non-alcoholic extensions. In particular, the extent to which a strong mother brand increases acceptance of a zero-alcohol variant and how this effect differs across consumer segments remains insufficiently understood.",
+    "This research addresses that gap by evaluating the influence of Heineken’s brand equity on perceptions and preferences for non-alcoholic beer. The analysis focuses on whether the strength of the Heineken mother brand increases selection of Heineken 0.0 and whether these effects differ between regular alcohol consumers and non-drinkers.",
+    "The project adopts a mixed-method research design comprising a controlled laboratory experiment, an online field experiment conducted through a live digital retail environment capturing real consumer purchase behavior, and structured questionnaires. These primary data are complemented by secondary data provided by Heineken.",
+    "This report presents Study 1, which examines consumer purchase intentions in a controlled laboratory setting under experimentally manipulated brand conditions.",
+    "Together, these approaches provide rigorous empirical evidence to inform product positioning, and corporate decision-making in the non-alcoholic beverage category."
+  ],
+
+  "researchQuestions": [
+    {"id": "RQ1", "text": "How does having an established alcohol mother-brand influence consumer choice, purchase intent, and perception of 0.0 beer?"},
+    {"id": "RQ2", "text": "Does the effect differ depending on drinking habits (regular drinkers, occasional drinkers, non-drinkers)?"}
+  ],
+  "hypotheses": [
+    {"id": "H1", "text": "Heineken 0.0 will be chosen more frequently in the simulated purchase environment compared to a fictional non-branded 0.0 beer."},
+    {"id": "H2", "text": "Brand perception scores for Heineken will positively correlate with purchase behavior and intent for Heineken 0.0."},
+    {"id": "H3", "text": "The impact of the mother brand on purchase behavior will be stronger for regular alcohol drinkers than non-drinkers."}
+  ],
+  "keyTakeaways": [
+    {"id": "KT1", "text": "Placeholder 1"},
+    {"id": "KT2", "text": "Placeholder 2"},
+    {"id": "KT3", "text": "Placeholder 3"},
+    {"id": "KT4", "text": "Placeholder 4"}
+  ]
+}

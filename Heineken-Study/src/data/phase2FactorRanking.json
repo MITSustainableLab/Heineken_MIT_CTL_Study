@@ -1,0 +1,34 @@
+{
+  "factorsByVariant": [
+    { "label": "Taste / Flavour", "varA": 45.3, "varB": 41.4, "varC": 52.7 },
+    { "label": "Brand Trust",     "varA": 26.6, "varB": 31.4, "varC": 22.4 },
+    { "label": "Appearance",      "varA": 10.8, "varB": 18.1, "varC": 13.9 },
+    { "label": "Price",           "varA": 11.8, "varB": 5.2,  "varC": 10.0 },
+    { "label": "Health",          "varA": 5.4,  "varB": 3.8,  "varC": 1.0  }
+  ],
+  "factorSeries": [
+    { "key": "varA", "label": "Variant A (Real Prices)" },
+    { "key": "varB", "label": "Variant B (Flat $10.99)" },
+    { "key": "varC", "label": "Variant C (OOS Study)" }
+  ],
+  "brandTrustPctByBrand": [
+    { "label": "Heineken 0.0",  "varA": 63,  "varB": 44,  "varC": 37.1 },
+    { "label": "Budweiser",     "varA": 41,  "varB": 57,  "varC": 29.4 },
+    { "label": "Corona",        "varA": 37,  "varB": 41,  "varC": 29.0 },
+    { "label": "O'Doul's",      "varA": 8,   "varB": 12,  "varC": 16.7 },
+    { "label": "Rescue Club",   "varA": 5,   "varB": 10,  "varC": 3.7  },
+    { "label": "Clausthaler",   "varA": 0,   "varB": 5,   "varC": 26.7 }
+  ],
+  "brandTrustSeries": [
+    { "key": "varA", "label": "Variant A" },
+    { "key": "varB", "label": "Variant B" },
+    { "key": "varC", "label": "Variant C" }
+  ],
+  "keyInsights": [
+    "Taste/Flavour is the dominant purchase driver across all conditions, ranked #1 by 41–53% of participants.",
+    "Brand Trust is the second most important factor, rising from 26.6% (Var A) to 31.4% (Var B) when price is neutralized — confirming that removing price elevates brand identity as the primary differentiator.",
+    "Heineken buyers lead at 63% in Variant A and 44% in Variant B citing Brand Trust as their #1 factor — the highest trust-driven selection rate of any brand.",
+    "Price drops dramatically as a motivator in Variant B (11.8% → 5.2%), confirming the flat-pricing manipulation was effective.",
+    "Health remains a minor factor across all conditions (1–5%), even among Very Active consumer segments."
+  ]
+}

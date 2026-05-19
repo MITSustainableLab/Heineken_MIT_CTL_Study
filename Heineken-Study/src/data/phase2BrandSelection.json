@@ -1,0 +1,57 @@
+{
+  "brandsByVariant": [
+    { "label": "Corona Sunbrew", "varA": 36.5, "varB": 32.9, "varC": 30.8, "type": "mother" },
+    { "label": "Rescue Club IPA", "varA": 20.7, "varB": 20.0, "varC": 26.9, "type": "non-mother" },
+    { "label": "Heineken 0.0",    "varA": 13.3, "varB": 20.5, "varC": 17.4, "type": "mother" },
+    { "label": "O'Doul's Golden", "varA": 11.3, "varB": 5.7,  "varC": 9.0,  "type": "non-mother" },
+    { "label": "Budweiser Zero",  "varA": 9.9,  "varB": 8.6,  "varC": 8.5,  "type": "mother" },
+    { "label": "Clausthaler",     "varA": 8.3,  "varB": 12.4, "varC": 7.5,  "type": "non-mother" }
+  ],
+  "variantSeries": [
+    { "key": "varA", "label": "Variant A (Real Prices)" },
+    { "key": "varB", "label": "Variant B (Flat $10.99)" },
+    { "key": "varC", "label": "Variant C (OOS 1st Choice)" }
+  ],
+  "motherBrandAggregate": [
+    { "label": "Mother Brands",     "varA": 58.1, "varB": 63.3, "varC": 56.7 },
+    { "label": "Non-Mother Brands", "varA": 41.9, "varB": 36.7, "varC": 43.3 }
+  ],
+  "aggregateSeries": [
+    { "key": "varA", "label": "Variant A" },
+    { "key": "varB", "label": "Variant B" },
+    { "key": "varC", "label": "Variant C" }
+  ],
+  "priceNeutralizationNotes": [
+    "Heineken's share rises from 13.3% (Var A) to 20.5% (Var B), a gain of +7.2 percentage points, when price is equalized.",
+    "O'Doul's collapses from 11.3% to 5.7% when price is equalized — confirming its Variant A share was almost entirely price-driven.",
+    "Clausthaler gains from 8.3% to 12.4% under price neutralization, consistent with craft/independent positioning benefiting from equal-footing comparisons.",
+    "Rescue Club remains stable (20.7% → 20.0%), confirming its competitive strength is category-driven (IPA novelty) rather than price-driven."
+  ],
+  "productCatalog": [
+    { "product": "Heineken 0.0 6-Pack",      "price": "$9.56",  "category": "Lager", "abv": "0.0%", "type": "Mother brand" },
+    { "product": "Budweiser Zero 6-Pack",    "price": "$8.36",  "category": "Lager", "abv": "0.0%", "type": "Mother brand" },
+    { "product": "Corona Sunbrew 6-Pack",    "price": "$9.76",  "category": "Lager", "abv": "0.0%", "type": "Mother brand" },
+    { "product": "O'Doul's Golden 6-Pack",   "price": "$8.32",  "category": "Lager", "abv": "0.4%", "type": "Non-mother" },
+    { "product": "Clausthaler Original 6-Pack","price": "$10.12","category": "Lager","abv": "0.0%", "type": "Non-mother" },
+    { "product": "Rescue Club IPA 6-Pack",   "price": "$12.99", "category": "IPA",   "abv": "0.0%", "type": "Non-mother" }
+  ],
+  "repurchaseIntent": [
+    { "label": "Heineken 0.0",    "varA": 77.8, "varB": 83.7, "varC": 62.9 },
+    { "label": "Corona Sunbrew",  "varA": 83.8, "varB": 78.5, "varC": 43.5 },
+    { "label": "Budweiser Zero",  "varA": 65.0, "varB": 90.5, "varC": 52.9 },
+    { "label": "Rescue Club IPA", "varA": 72.0, "varB": 70.0, "varC": 61.1 },
+    { "label": "Clausthaler",     "varA": 58.0, "varB": 62.0, "varC": 46.7 },
+    { "label": "O'Doul's Golden", "varA": 55.0, "varB": 50.0, "varC": 44.4 }
+  ],
+  "repurchaseSeries": [
+    { "key": "varA", "label": "Variant A" },
+    { "key": "varB", "label": "Variant B" },
+    { "key": "varC", "label": "Variant C (replacement)" }
+  ],
+  "repurchaseIntentVarC": {
+    "overallTop2": 52.7,
+    "overallBottom2": 29.4,
+    "neutral": 17.9,
+    "n": 201
+  }
+}

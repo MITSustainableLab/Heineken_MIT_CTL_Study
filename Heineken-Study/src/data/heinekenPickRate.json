@@ -1,0 +1,38 @@
+{
+  "thresholds": [
+    { "key": "over50", "label": ">50%" },
+    { "key": "over75", "label": ">75%" },
+    { "key": "over90", "label": ">90%" }
+  ],
+
+  "gender": [
+    { "label": "Female", "over50": 58.5, "over75": 38.5, "over90": 24.1 },
+    { "label": "Male",   "over50": 59.7, "over75": 44.5, "over90": 29.9 }
+  ],
+
+  "ageGroups": [
+    { "label": "21–24", "over50": 62.0, "over75": 38.0, "over90": 25.0 },
+    { "label": "25–34", "over50": 54.0, "over75": 38.0, "over90": 26.0 },
+    { "label": "35–44", "over50": 62.0, "over75": 47.0, "over90": 29.5 },
+    { "label": "45–54", "over50": 53.5, "over75": 35.8, "over90": 28.5 },
+    { "label": "55–65", "over50": 70.0, "over75": 54.0, "over90": 27.0 },
+    { "label": "65+",   "over50": 71.5, "over75": 43.0, "over90": 21.5 }
+  ],
+
+  "incomeGroups": [
+    { "label": "<$25k",     "over50": 55.0, "over75": 34.5, "over90": 22.0 },
+    { "label": "$25–49k",   "over50": 66.5, "over75": 50.5, "over90": 28.5 },
+    { "label": "$50–74k",   "over50": 55.0, "over75": 39.5, "over90": 29.5 },
+    { "label": "$75–99k",   "over50": 62.5, "over75": 41.5, "over90": 30.5 },
+    { "label": "$100–149k", "over50": 60.5, "over75": 44.5, "over90": 30.5 },
+    { "label": "$150k+",    "over50": 42.0, "over75": 21.0, "over90": 15.8 }
+  ],
+
+  "activityLevels": [
+    { "label": "Minimal",           "over50": 54.5, "over75": 37.0, "over90": 23.0 },
+    { "label": "Basic",             "over50": 57.0, "over75": 37.0, "over90": 29.0 },
+    { "label": "Moderately active", "over50": 60.5, "over75": 41.5, "over90": 22.5 },
+    { "label": "Active",            "over50": 65.0, "over75": 48.0, "over90": 33.5 },
+    { "label": "Highly active",     "over50": 34.5, "over75": 27.0, "over90": 15.5 }
+  ]
+}

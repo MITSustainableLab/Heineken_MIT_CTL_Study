@@ -1,0 +1,15 @@
+import { ReactNode } from 'react';
+import clsx from 'clsx';
+
+interface CardProps {
+  children: ReactNode;
+  className?: string;
+}
+
+const Card = ({ children, className }: CardProps) => (
+  <div className={clsx('rounded-xl border border-slate-200 bg-white p-6 shadow-sm', className)}>
+    {children}
+  </div>
+);
+
+export default Card;

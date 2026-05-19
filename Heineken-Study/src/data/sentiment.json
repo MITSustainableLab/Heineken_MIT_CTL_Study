@@ -1,0 +1,17 @@
+{
+  "table": [
+    {"brand": "Heineken", "avgSentiment": 0.42, "count": 320, "positivePct": 54, "neutralPct": 31, "negativePct": 15},
+    {"brand": "Star Brew", "avgSentiment": 0.18, "count": 210, "positivePct": 41, "neutralPct": 39, "negativePct": 20},
+    {"brand": "Green River", "avgSentiment": 0.12, "count": 188, "positivePct": 38, "neutralPct": 42, "negativePct": 20},
+    {"brand": "Harbor Zero", "avgSentiment": 0.09, "count": 154, "positivePct": 35, "neutralPct": 45, "negativePct": 20}
+  ],
+  "themes": {
+    "drivers": ["Crisp taste expectation", "Trusted availability", "Sustainable messaging", "Low-calorie appeal"],
+    "barriers": ["Concerns about taste", "Uncertainty about ingredients", "Limited visibility", "Price skepticism"]
+  },
+  "quotes": [
+    {"id": "q1", "text": "I reach for the brand I already know will taste right.", "tag": "familiarity"},
+    {"id": "q2", "text": "If it is eco-friendly and still affordable, I am more likely to try it.", "tag": "value"},
+    {"id": "q3", "text": "I want it to be easy to find in the aisle without guessing.", "tag": "availability"}
+  ]
+}

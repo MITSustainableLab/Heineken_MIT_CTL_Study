@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    background-color: #F1F5F9;
+    color: #0F172A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.75;
+  }
+
+  li {
+    text-align: left;
+    line-height: 1.7;
+  }
+}
+
+/* Bump explanatory content text by ~3px inside report sections only.
+   Placed outside @layer so it beats Tailwind utility classes like text-sm. */
+.section-anchor p,
+.section-anchor li {
+  font-size: 1.0625rem; /* 17px — up from text-sm 14px */
+}
+
+@layer components {
+  .section-anchor {
+    scroll-margin-top: 96px;
+  }
+
+  /* Tabular numbers for metric values */
+  .stat-value {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.04em;
+    font-feature-settings: 'tnum';
+  }
+
+  /* Subtle page-level rule used between major document parts */
+  .doc-rule {
+    border: none;
+    border-top: 1px solid #E2E8F0;
+    margin: 2rem 0;
+  }
+}

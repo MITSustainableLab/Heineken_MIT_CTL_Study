@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "id": "disc_001",
+      "title": "Budweiser vs. Rescue Club discrepancy",
+      "likelihoodScale": [1, 2, 3, 4, 5],
+      "likelihoodDistribution": [
+        {"label": "Budweiser", "values": {"1": 9, "2": 14, "3": 28, "4": 31, "5": 18}},
+        {"label": "Rescue Club", "values": {"1": 16, "2": 21, "3": 29, "4": 22, "5": 12}}
+      ],
+      "forcedChoice": [
+        {"label": "Budweiser", "value": 58},
+        {"label": "Rescue Club", "value": 42}
+      ],
+      "explanation": "Forced choice favors Budweiser despite a flatter purchase-likelihood curve, suggesting brand inertia. Rescue Club attracts mid-level intent but fails to convert at the top of the scale, pointing to messaging gaps that limit commitment."
+    },
+    {
+      "id": "disc_002",
+      "title": "Heineken 0.0 vs. Green River discrepancy",
+      "likelihoodScale": [1, 2, 3, 4, 5],
+      "likelihoodDistribution": [
+        {"label": "Heineken 0.0", "values": {"1": 6, "2": 12, "3": 25, "4": 34, "5": 23}},
+        {"label": "Green River", "values": {"1": 12, "2": 18, "3": 30, "4": 26, "5": 14}}
+      ],
+      "forcedChoice": [
+        {"label": "Heineken 0.0", "value": 61},
+        {"label": "Green River", "value": 39}
+      ],
+      "explanation": "Heineken shows stronger top-box intent, while Green River clusters in the middle of the scale. This mismatch implies that trial interest exists for Green River, but confidence declines when a single pick is required."
+    }
+  ]
+}
