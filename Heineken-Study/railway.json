@@ -1,4 +1,4 @@
 {
-    "buildCommand": "cd Heineken-Study && npm install && npm run build",
-    "startCommand": "cd Heineken-Study && npx http-server dist -p $PORT"
+    "buildCommand": "npm install && npm run build",
+    "startCommand": "npx http-server dist -p $PORT"
   }
