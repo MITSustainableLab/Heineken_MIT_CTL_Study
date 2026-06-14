@@ -1,4 +1,9 @@
 {
     "buildCommand": "npm install && npm run build",
+<<<<<<< HEAD
     "startCommand": "npm start"
 }
+=======
+    "startCommand": "npx http-server dist -p $PORT"
+  }
+>>>>>>> 322a2a50441a04284a0cf7360079ef0dc61f560a
