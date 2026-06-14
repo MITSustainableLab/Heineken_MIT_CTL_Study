@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "http-server dist -p ${PORT:-3000} -a 0.0.0.0 --cors"
+    "start": "node server.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "express": "^4.18.2",
     "http-server": "^14.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
