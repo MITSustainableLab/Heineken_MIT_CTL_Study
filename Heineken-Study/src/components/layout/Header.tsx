@@ -50,13 +50,13 @@ const Header = ({ groups, activePage, onPageChange }: HeaderProps) => {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-sm">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-1 lg:px-10">
+      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-0 lg:px-10">
 
         {/* Brand logos */}
         <div className="flex items-center gap-3">
-          <img src="/images/MIT_CTL Logo.png" alt="MIT CTL" className="h-8 w-auto object-contain" />
+          <img src="/images/SSCL_sub-brand_lockup_two-line_rgb_black.png" alt="SSCL" className="h-8 w-auto object-contain" />
           <span className="text-slate-300 text-lg font-light">×</span>
-          <img src="/images/Heineken-Logo.png" alt="Heineken" className="h-20 w-auto max-w-[200px] object-contain -my-2" />
+          <img src="/images/Heineken-Logo.png" alt="Heineken" className="h-32 w-auto max-w-[250px] object-contain -my-2" />
         </div>
 
         {/* Desktop nav */}
