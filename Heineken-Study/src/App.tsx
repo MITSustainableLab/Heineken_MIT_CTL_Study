@@ -10,7 +10,7 @@ import Phase2MethodologyPage, { phase2MethodologySections } from './pages/Phase2
 export const navGroups = [
   {
     id: 'phase1',
-    label: 'Phase 1',
+    label: 'Study I',
     items: [
       { id: 'report',      label: 'Report' },
       { id: 'methodology', label: 'Methodology' },
@@ -18,7 +18,7 @@ export const navGroups = [
   },
   {
     id: 'phase2',
-    label: 'Phase 2',
+    label: 'Study II',
     items: [
       { id: 'phase2',       label: 'Report' },
       { id: 'phase2method', label: 'Methodology' },

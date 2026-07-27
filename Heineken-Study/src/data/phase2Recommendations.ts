@@ -25,14 +25,14 @@ export const phase2Recommendations: Recommendation[] = [
     id: '3',
     priority: 'MEDIUM–HIGH',
     title: 'Invest in the Non-Drinker Segment',
-    evidence: 'H3 failure reveals that the mother-brand advantage applies equally to non-drinkers and regular drinkers. Non-drinkers represent 12–14% of the Phase 2 sample and choose mother brands at 44–55% rates — only modestly below regular drinkers.',
+    evidence: 'H3 failure reveals that the mother-brand advantage applies equally to non-drinkers and regular drinkers. Non-drinkers represent 12–14% of the Study II sample and choose mother brands at 44–55% rates — only modestly below regular drinkers.',
     recommendation: "Develop marketing messaging specifically for non-alcohol lifestyle consumers that positions Heineken 0.0 as a premium social beverage for all occasions — not as a beer substitute. Emphasize brand heritage and quality signal rather than the '0.0%' alcohol angle."
   },
   {
     id: '4',
     priority: 'MEDIUM–HIGH',
     title: 'Exploit Heineken–Corona Competitive Proximity',
-    evidence: '42% of Corona loyalists redirect to Heineken when Corona is OOS — the largest inter-brand switching flow in Phase 2. Heineken and Corona occupy virtually identical mental positions as "clean, light premium lager."',
+    evidence: '42% of Corona loyalists redirect to Heineken when Corona is out of stock (OOS) — the largest inter-brand switching flow in Study II. Heineken and Corona occupy virtually identical mental positions as "clean, light premium lager."',
     recommendation: 'Develop targeted competitive messaging and retail materials that draw direct taste comparisons or highlight Heineken 0.0\'s superior lager heritage vs Corona Sunbrew. Secure preferred shelf placement adjacent to Corona to capture cross-shopping attention. Consider head-to-head taste campaigns.'
   },
   {
@@ -55,7 +55,7 @@ export const discussionPoints = [
   {
     id: 'mother-brand',
     title: 'The Mother-Brand Effect is Real',
-    body: 'The central finding of Phase 2 simultaneously validates and challenges Heineken. The mother-brand advantage documented in Phase 1 translates into a meaningful competitive advantage at the aggregate level. Mother brands collectively capture 58–63% of selections in a 50/50 field. However, Heineken is sharing this advantage with two equally powerful mother brands — Corona and Budweiser — while also competing against Rescue Club IPA, a category innovator that bypasses brand-trust logic entirely. Corona\'s dominance (30–37%) is the most commercially significant Phase 2 finding: its vitamin D differentiation, distinctive packaging, and social brand identity have translated more effectively into NA beer choice than Heineken\'s classic lager positioning.'
+    body: 'The central finding of Study II simultaneously validates and challenges Heineken. The mother-brand advantage documented in Study I translates into a meaningful competitive advantage at the aggregate level. Mother brands collectively capture 58–63% of selections in a 50/50 field. However, Heineken is sharing this advantage with two equally powerful mother brands — Corona and Budweiser — while also competing against Rescue Club IPA, a category innovator that bypasses brand-trust logic entirely. Corona\'s dominance (30–37%) is the most commercially significant Study II finding: its vitamin D differentiation, distinctive packaging, and social brand identity have translated more effectively into NA beer choice than Heineken\'s classic lager positioning.'
   },
   {
     id: 'price-headwind',
@@ -80,7 +80,7 @@ export const discussionPoints = [
 ];
 
 export const phase2ConclusionParagraphs = [
-  "Phase 2 of the MIT × Heineken (Sober Spirits) collaboration delivers a nuanced and commercially actionable set of findings that both validate and refine the Phase 1 conclusions. The fundamental thesis that strong mother brands hold an advantage in the non-alcoholic beer category is confirmed: when consumers face a competitive shelf of six brands, products backed by established alcoholic parent companies collectively capture 58–63% of purchases, significantly above what chance would predict. The mother-brand effect is real, durable, and extends across drinking segments — including non-drinkers.",
+  "Study II of the MIT × Heineken (Sober Spirits) collaboration delivers a nuanced and commercially actionable set of findings that both validate and refine the Study I conclusions. The fundamental thesis that strong mother brands hold an advantage in the non-alcoholic beer category is confirmed: when consumers face a competitive shelf of six brands, products backed by established alcoholic parent companies collectively capture 58–63% of purchases, significantly above what chance would predict. The mother-brand effect is real, durable, and extends across drinking segments — including non-drinkers.",
   "However, Heineken 0.0 is not the primary beneficiary of this advantage in the current competitive environment. Corona Sunbrew, with its distinctive vitamin D positioning, appealing packaging, and strong taste heritage, captures 2–3 times Heineken's market share across all experimental conditions. Heineken's competitive underperformance is not a brand equity deficit — its familiarity scores are the highest of any NA beer in the study — but a failure to convert that equity into first choices in the face of price competition and Corona's stronger visual/functional differentiation.",
   "Three findings in particular point toward clear commercial action. First, the price neutralization effect demonstrates that removing Heineken's pricing disadvantage raises its share by 7.2 percentage points. Second, the brand trust concentration (63% of Heineken buyers place brand trust as their #1 factor) indicates a highly loyal but narrow consumer base, suggesting the priority is trial generation rather than loyalty retention. Third, the safe fallback dynamic — where Heineken gains net share under OOS conditions and is the #1 destination for displaced Corona buyers — reveals a competitive proximity that could be exploited through targeted retail marketing."
 ];

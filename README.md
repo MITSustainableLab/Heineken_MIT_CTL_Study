@@ -4,10 +4,10 @@ A React web application presenting findings from a two-phase consumer research c
 
 ## Studies
 
-**Phase 1 — Sustainable Sips (November 2025)**
+**Study I — Sustainable Sips (November 2025)**
 Controlled study (n = 412) using one-to-one brand comparisons to establish baseline mother-brand preference and demographic predictors of choice behavior.
 
-**Phase 2 — Sober Spirits (April 2026)**
+**Study II — Sober Spirits (April 2026)**
 Competitive e-commerce simulation (n = 614) placing participants in a realistic online store stocked with six real NA beer brands. Three experimental variants tested real-world pricing, price-equalized conditions, and out-of-stock scenarios.
 
 ## Tech Stack
@@ -42,9 +42,9 @@ The dev server runs at `http://localhost:5173` by default.
 ```
 src/
 ├── pages/
-│   ├── ReportPage.tsx           # Phase 1 report
-│   ├── MethodologyPage.tsx      # Phase 1 methodology
-│   ├── Phase2ReportPage.tsx     # Phase 2 report
+│   ├── ReportPage.tsx           # Study I report
+│   ├── MethodologyPage.tsx      # Study I methodology
+│   ├── Phase2ReportPage.tsx     # Study II report
 │   └── Phase2MethodologyPage.tsx
 ├── components/
 │   ├── layout/                  # AppShell, Header, Table of Contents

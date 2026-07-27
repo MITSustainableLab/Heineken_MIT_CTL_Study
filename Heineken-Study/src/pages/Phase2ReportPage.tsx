@@ -175,7 +175,7 @@ const Phase2ReportPage = () => {
       {/* ── EXPERIMENTAL DESIGN ───────────────────────────────────── */}
       <Section id="ph2-design" title="Experimental Design">
         <div className="space-y-4">
-          <p className="text-sm text-slate-600 text-justify">Phase 2 employed a three-variant between-subjects design, in which each participant was randomly assigned to one of three conditions: Variant A, Variant B, or Variant C. All three variants presented participants with the same catalog of six real non-alcoholic beer brands available in the US market, hosted on a custom-built simulated online store developed on Replit. Each participant was given a $15 shopping budget, sized so that they could purchase exactly one product, ensuring a single, forced-choice purchase decision. A lottery-based cash prize was offered as an incentive to encourage participants to shop as they would in real life. All participants completed the same post-shopping survey covering their reasons for purchase, brand familiarity, and likelihood to buy again.</p>
+          <p className="text-sm text-slate-600 text-justify">Study II employed a three-variant between-subjects design, in which each participant was randomly assigned to one of three conditions: Variant A, Variant B, or Variant C. All three variants presented participants with the same catalog of six real non-alcoholic beer brands available in the US market, hosted on a custom-built simulated online store developed on Replit. Each participant was given a $15 shopping budget, sized so that they could purchase exactly one product, ensuring a single, forced-choice purchase decision. A lottery-based cash prize was offered as an incentive to encourage participants to shop as they would in real life. All participants completed the same post-shopping survey covering their reasons for purchase, brand familiarity, and likelihood to buy again.</p>
           <p className="text-sm text-slate-600 text-justify">The three variants differed in their pricing and shopping conditions, with each variant designed to shed light on a different aspect of consumer behavior: the effect of real-world market prices (Variant A), the effect of brand strength when price is removed as a factor (Variant B), and how consumers respond when their preferred brand is out of stock (Variant C). Together, the three variants allow for a structured comparison of what drives purchase decisions in the non-alcoholic beer category. The design and flow of each variant are described in detail below.</p>
         </div>
         <div className="grid gap-6 lg:grid-cols-3">
@@ -423,7 +423,7 @@ const Phase2ReportPage = () => {
         title="Brand Selection Results"
       >
         <div className="space-y-4">
-          <p className="text-sm text-slate-600 text-justify">Across all three experimental variants, mother brands, defined as non-alcoholic products from established alcoholic parent companies (Heineken 0.0, Corona Sunbrew, and Budweiser Zero), consistently captured the majority of product selections. In Variant A, mother brands collectively accounted for 58.1% of selections. In Variant B, that share rose to 63.3%, and in Variant C it stood at 56.7%. In all three cases, mother brand share was significantly above the 50% threshold that would be expected if consumers were choosing purely at random across the six available products, confirming that the mother-brand advantage observed in Phase 1 holds in a fully competitive shelf setting.</p>
+          <p className="text-sm text-slate-600 text-justify">Across all three experimental variants, mother brands, defined as non-alcoholic products from established alcoholic parent companies (Heineken 0.0, Corona Sunbrew, and Budweiser Zero), consistently captured the majority of product selections. In Variant A, mother brands collectively accounted for 58.1% of selections. In Variant B, that share rose to 63.3%, and in Variant C it stood at 56.7%. In all three cases, mother brand share was significantly above the 50% threshold that would be expected if consumers were choosing purely at random across the six available products, confirming that the mother-brand advantage observed in Study I holds in a fully competitive shelf setting.</p>
           <p className="text-sm text-slate-600 text-justify">Corona Sunbrew was the clear market leader in every variant, capturing 36.5% of selections in Variant A, 32.9% in Variant B, and 30.8% in Variant C. Its lead over all other brands was consistent and substantial, driven by strong consumer recognition of the Corona parent brand, distinctive packaging, and its unique vitamin D fortification positioning.</p>
           <p className="text-sm text-slate-600 text-justify">The most strategically important finding in this section is the price neutralization effect observed between Variant A and Variant B. When all six products were priced equally at $10.99, Heineken's selection share rose from 13.3% to 20.5%, a gain of 7.2 percentage points. This is the largest share shift of any brand between the two variants and it tells a clear story: Heineken 0.0 is underperforming in the real market not because consumers do not want it, but because its higher retail price is deterring purchase. When that price barrier is removed, Heineken's underlying brand equity expresses itself, and nearly one in five consumers chooses it. By contrast, O'Doul's, which benefits from its low real-world price point in Variant A, saw its share fall sharply from 11.3% to 5.2% when price was equalized, confirming that its appeal is largely price-driven rather than brand-driven.</p>
           <p className="text-sm text-slate-600 text-justify">Rescue Club IPA, a non-mother brand with no established alcoholic parent, performed notably well across all three variants, capturing between 20.0% and 26.9% of selections. This is discussed further in the context of purchase factor analysis, where Rescue Club's strong performance is linked to its craft positioning and taste-forward branding rather than any mother-brand recognition.</p>
@@ -1028,11 +1028,10 @@ const Phase2ReportPage = () => {
                 <Card key={val.label} className="text-center">
                   <p className="text-2xl font-bold text-slate-800">{val.pct}%</p>
                   <p className="mt-1 text-xs text-slate-500">{val.label}</p>
-                  <p className="mt-1 text-xs text-slate-400">n = {val.n}</p>
                 </Card>
               ))}
             </div>
-            <Callout variant="note" title="OOS Switching Insight">
+            <Callout variant="note" title="Out-of-Stock (OOS) Switching Insight">
               {phase2OosSwitching.switchingMatrixDescription}
             </Callout>
           </div>
@@ -1145,7 +1144,7 @@ const Phase2ReportPage = () => {
       </Section>
 
       {/* ── HYPOTHESIS OUTCOMES ───────────────────────────────────── */}
-      <Section id="ph2-hypotheses" title="Hypothesis Outcomes" subtitle="Phase 2 verdict across all four pre-registered hypotheses">
+      <Section id="ph2-hypotheses" title="Hypothesis Outcomes" subtitle="Study II verdict across all four pre-registered hypotheses">
         <p className="text-sm text-slate-600 text-justify leading-relaxed">{phase2HypothesisSummaryParagraph}</p>
 
         <div className="grid gap-10">
@@ -1370,11 +1369,7 @@ const Phase2ReportPage = () => {
       {/* ── REGRESSION INSIGHTS ───────────────────────────────────── */}
       <Section id="ph2-regression" title="Regression Insights" subtitle="Multivariate predictors of mother-brand and brand-specific selection">
         <p className="text-sm text-slate-600 text-justify leading-relaxed">
-          Logistic regression controlling for all demographics simultaneously (pooled, n=524).
-          Female gender is the strongest and most significant predictor (OR=2.046, p=0.0003),
-          associated with a +16.1 pp higher probability of choosing a mother brand. NA beer
-          frequency is a significant negative predictor (OR=0.808, p=0.029). Physical activity
-          is a significant positive predictor (OR=1.194, p=0.045).
+          A binary logistic regression was estimated using the pooled sample (n = 524), with the dependent variable indicating whether the participant selected the mother brand (1 = yes, 0 = no). Controlling for all demographic variables simultaneously, gender emerged as the strongest predictor of mother-brand choice. Female respondents had 1.61 times higher odds of selecting a mother brand than male respondents (OR = 1.61, p&lt;0.001***). More frequent consumption of non-alcoholic beer was associated with lower odds of selecting a mother brand (OR = 0.808, p&lt;0.05*), while higher levels of physical activity were associated with greater odds of selecting a mother brand (OR = 1.194, p&lt;0.05*).
         </p>
 
         <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
@@ -1459,7 +1454,7 @@ const Phase2ReportPage = () => {
           {[
             { title: 'Gender: Opposite Effects on Heineken and Corona', body: 'Females are significantly more likely to choose Corona (OR=3.158, p<0.001), while males directionally lean toward Heineken (female OR=0.629, p=0.071). The aggregate mother-brand gender effect is entirely a Corona effect — Heineken\'s natural demographic home is male consumers.' },
             { title: 'Age: Older → Heineken, Younger → Corona', body: 'Each age-group step is associated with +18.8% odds of choosing Heineken and −20.5% odds of choosing Corona. Heineken\'s natural consumer cohort is older adults (45+), consistent with decades-long advertising history.' },
-            { title: 'Beer Frequency Specifically Predicts Heineken', body: 'Beer drinking frequency is the only variable that significantly predicts Heineken 0.0 selection (OR=1.498, p=0.033). Each step increase raises the odds of choosing Heineken by 49.8%. This signal does not carry for Corona.' },
+            { title: 'Beer Frequency Specifically Predicts Heineken', body: 'Beer drinking frequency significantly predicted Heineken selection (OR = 1.498, p < .05), with each one-unit increase in drinking frequency associated with a 49.8% increase in the odds of choosing Heineken. No significant association was found for Corona.' },
             { title: 'NA Beer Experience Reduces Mother-Brand Reliance', body: 'Each step increase in NA beer consumption frequency reduces the probability of choosing any mother brand by 4.8 pp (p=0.029). A two-stage funnel applies: trust-led acquisition for the category-naive, taste-led retention for the experienced.' },
             { title: 'Physical Activity: Non-Linear Effect', body: 'Active consumers (4–5 days/week) peak at 66.7% mother-brand preference, but Very Active (6–7 days/week) drop to 42.6%. Very Active consumers are the most visible NA beer consumers in wellness contexts yet are least responsive to mother-brand positioning.' },
             { title: 'Price Suppression Is Partially Captured', body: 'The Variant B dummy (OR=1.404, Heineken) is positive but not significant. The pricing effect is partially absorbed by the brand-specific model, consistent with price being a moderator of the familiarity-to-selection pathway rather than an independent driver.' }
@@ -1473,7 +1468,7 @@ const Phase2ReportPage = () => {
       </Section>
 
       {/* ── DISCUSSION ────────────────────────────────────────────── */}
-      <Section id="ph2-discussion" title="Discussion" subtitle="Interpretation of Phase 2 findings and strategic implications">
+      <Section id="ph2-discussion" title="Discussion" subtitle="Interpretation of Study II findings and strategic implications">
         <div className="grid gap-6 lg:grid-cols-2">
           {discussionPoints.map((point) => (
             <Card key={point.id}>
@@ -1488,8 +1483,7 @@ const Phase2ReportPage = () => {
           <ul className="space-y-2">
             {[
               'Simulated environment and lottery incentive: Despite the realistic design, participants know they are in a research study. The lottery incentive creates consequential realism, but actual financial stakes differ from a real purchase.',
-              'US-only sample: All participants are US-based Prolific respondents. Heineken\'s brand equity profile, consumer familiarity levels, and competitive dynamics differ substantially across international markets.',
-              'Prolific panel characteristics: Prolific samples, while diverse, overrepresent technology-comfortable and survey-experienced participants. The 25–34 age skew (30.1%) and relatively high education level (50% bachelor\'s+) may not perfectly represent the mass NA beer market.'
+              'US-only sample: All participants are US-based Prolific respondents. Heineken\'s brand equity profile, consumer familiarity levels, and competitive dynamics differ substantially across international markets.'
             ].map(lim => (
               <li key={lim} className="flex gap-2 text-sm text-slate-600">
                 <span className="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-slate-400" />
@@ -1525,7 +1519,7 @@ const Phase2ReportPage = () => {
       </Section>
 
       {/* ── CONCLUSION ────────────────────────────────────────────── */}
-      <Section id="ph2-conclusion" title="Conclusion" subtitle="Phase 2 core conclusions and strategic summary">
+      <Section id="ph2-conclusion" title="Conclusion" subtitle="Study II core conclusions and strategic summary">
         <div className="space-y-4">
           {phase2ConclusionParagraphs.map((para) => (
             <p key={para} className="text-sm text-slate-600 text-justify">{para}</p>
@@ -1533,7 +1527,7 @@ const Phase2ReportPage = () => {
         </div>
 
         <Card>
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-4">Summary of Phase 2 Core Conclusions</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-4">Summary of Study II Core Conclusions</p>
           <ol className="space-y-3">
             {phase2CoreConclusions.map((conclusion, i) => (
               <li key={conclusion} className="flex gap-3 text-sm text-slate-600">

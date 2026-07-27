@@ -2,10 +2,10 @@
   "context": [
     "Heineken N.V. is one of the world's largest brewing companies, distributing its flagship lager to 192 countries since 1873. In 2017, the company launched Heineken 0.0 — a zero-alcohol variant of its iconic lager — as its primary entry into the rapidly growing non-alcoholic beer category.",
     "The non-alcoholic beer market has expanded significantly in recent years. Previously a niche segment associated with designated drivers or medical necessity, non-alcoholic beer has been reframed as a lifestyle and wellness choice, attracting both existing beer drinkers seeking moderation and new consumers who have never regularly consumed alcohol.",
-    "Phase 1 of this research collaboration (Sustainable Sips, December 2025) demonstrated that Heineken 0.0 captured 63.1% of selections against fictional non-branded alternatives, and that brand perception scores (Pearson r = 0.724, p < 10⁻⁶⁸) strongly predicted purchase likelihood.",
-    "Phase 2 of the Sober Spirits study was designed to answer a critical question that Phase 1 could not: does the mother-brand advantage hold up in a realistic, competitive shopping environment? In Phase 1, participants chose between pairs of brands in controlled, one-on-one comparisons. That setting was useful for establishing whether a preference exists, but it does not reflect how consumers actually shop. In the real world, a consumer standing in front of a store shelf or browsing an online retailer does not face a simple binary choice. They see multiple brands at once, each with its own price, packaging, and reputation, and they must decide which one is worth their money.",
-    "Phase 2 was built to replicate that experience. Participants were placed in a fully simulated online store stocked with six real non-alcoholic beer brands currently available in the US market. Prices were drawn from actual retail data sourced from Total Wine in Boston, MA, and a lottery-based cash incentive was used to encourage participants to shop as they genuinely would, rather than guessing what a researcher might want to see. This setup ensures that the choices participants make reflect real purchase intent rather than hypothetical preferences.",
-    "To understand not just whether consumers prefer mother brands, but why, Phase 2 introduced three experimental variants that each isolate a different driver of brand choice. Variant A tested behavior under real market prices, capturing the full effect of price differences between brands. Variant B removed price as a variable entirely, revealing how much of a brand's appeal is driven by its name and reputation alone. Variant C introduced a simulated out-of-stock condition, showing what happens to brand loyalty when a consumer's first choice is unavailable. Together, these three variants allow for a structured and layered understanding of what drives non-alcoholic beer purchase decisions in a competitive setting."
+    "Study I of this research collaboration (Sustainable Sips, December 2025) demonstrated that Heineken 0.0 captured 63.1% of selections against fictional non-branded alternatives, and that brand perception scores (p<0.001) strongly predicted purchase likelihood.",
+    "Study II of the Sober Spirits study was designed to answer a critical question that Study I could not: does the mother-brand advantage hold up in a realistic, competitive shopping environment? In Study I, participants chose between pairs of brands in controlled, one-on-one comparisons. That setting was useful for establishing whether a preference exists, but it does not reflect how consumers actually shop. In the real world, a consumer standing in front of a store shelf or browsing an online retailer does not face a simple binary choice. They see multiple brands at once, each with its own price, packaging, and reputation, and they must decide which one is worth their money.",
+    "Study II was built to replicate that experience. Participants were placed in a fully simulated online store stocked with six real non-alcoholic beer brands currently available in the US market. Prices were drawn from actual retail data sourced from Total Wine in Boston, MA, and a lottery-based cash incentive was used to encourage participants to shop as they genuinely would, rather than guessing what a researcher might want to see. This setup ensures that the choices participants make reflect real purchase intent rather than hypothetical preferences.",
+    "To understand not just whether consumers prefer mother brands, but why, Study II introduced three experimental variants that each isolate a different driver of brand choice. Variant A tested behavior under real market prices, capturing the full effect of price differences between brands. Variant B removed price as a variable entirely, revealing how much of a brand's appeal is driven by its name and reputation alone. Variant C introduced a simulated out-of-stock condition, showing what happens to brand loyalty when a consumer's first choice is unavailable. Together, these three variants allow for a structured and layered understanding of what drives non-alcoholic beer purchase decisions in a competitive setting."
   ],
   "researchQuestions": [
     {
@@ -21,14 +21,14 @@
     {
       "id": "RQ3",
       "question": "How do consumers respond when their preferred non-alcoholic brand is unavailable (out-of-stock)?",
-      "explanation": "Variant C introduces a novel behavioral measure — the out-of-stock redirect — to assess revealed brand loyalty under friction conditions. What switching patterns emerge, and what does this reveal about the depth of mother-brand loyalty on a competitive shelf? This question is specifically addressed in Phase 2, since we look at a more realistic purchase behavior."
+      "explanation": "Variant C introduces a novel behavioral measure — the out-of-stock redirect — to assess revealed brand loyalty under friction conditions. What switching patterns emerge, and what does this reveal about the depth of mother-brand loyalty on a competitive shelf? This question is specifically addressed in Study II, since we look at a more realistic purchase behavior."
     }
   ],
   "hypotheses": [
     {
       "id": "H1",
-      "statement": "Mother brand will be chosen more frequently in the simulated purchase environment compared to non-mother-brand competitors.",
-      "rationale": "Strong established brands reduce consumer uncertainty in unfamiliar categories. Heineken's global recognition and Phase 1 validation should translate to above-average selection share even in competitive contexts."
+      "statement": "Mother brand will be chosen more frequently compared to non-mother-brand competitors.",
+      "rationale": "Strong established brands reduce consumer uncertainty in unfamiliar categories. Heineken's global recognition and Study I validation should translate to above-average selection share even in competitive contexts."
     },
     {
       "id": "H2",
@@ -43,7 +43,7 @@
     {
       "id": "H4",
       "statement": "Heineken will function as a competitive 'safe fallback' brand under out-of-stock (OOS) conditions — gaining net share when other brands are unavailable.",
-      "rationale": "Given Heineken's high familiarity and universal brand recognition, it was hypothesized that when consumers are forced to choose a second-best option, they will disproportionately gravitate toward Heineken as a low-risk substitute. This novel hypothesis was introduced in Phase 2's out-of-stock experiment."
+      "rationale": "Given Heineken's high familiarity and universal brand recognition, it was hypothesized that when consumers are forced to choose a second-best option, they will disproportionately gravitate toward Heineken as a low-risk substitute. This novel hypothesis was introduced in Study II's out-of-stock experiment."
     }
   ]
 }
