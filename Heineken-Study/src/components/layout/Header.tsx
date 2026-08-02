@@ -100,7 +100,7 @@ const Header = ({ groups, activePage, onPageChange }: HeaderProps) => {
                   )}
                 </button>
 
-                {/* Dropdown panel — stays open while mouse is anywhere inside the wrapper */}
+                {/* Dropdown panel: stays open while mouse is anywhere inside the wrapper */}
                 {isOpen && (
                   <div
                     role="menu"

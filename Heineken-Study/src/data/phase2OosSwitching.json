@@ -8,12 +8,12 @@
     { "label": "Rescue Club IPA", "firstChoiceN": 54, "firstChoicePct": 26.9, "replacementN": 26, "replacementPct": 12.9, "netDelta": -28, "direction": "loser" }
   ],
   "switchingHighlights": [
-    "42% of Corona loyalists redirected to Heineken when Corona was OOS — the single largest inter-brand switching flow in the entire matrix.",
-    "46% of Heineken loyalists redirected to Corona when Heineken was OOS — the two brands are near-perfect mutual substitutes.",
-    "65% of Heineken replacement-choice buyers came from Corona (26 people) or Rescue Club (6 people) — the #1 and #2 most popular first-choice brands.",
+    "42% of Corona loyalists redirected to Heineken when Corona was OOS: the single largest inter-brand switching flow in the entire matrix.",
+    "46% of Heineken loyalists redirected to Corona when Heineken was OOS: the two brands are near-perfect mutual substitutes.",
+    "65% of Heineken replacement-choice buyers came from Corona (26 people) or Rescue Club (6 people): the #1 and #2 most popular first-choice brands.",
     "Clausthaler was the biggest proportional net gainer (+27), driven by Rescue Club IPA loyalists who treated it as their craft substitute.",
-    "Rescue Club IPA lost the most replacement share (−28), consistent with its highly category-specific appeal — IPA enthusiasts forced into lager territory dispersed widely.",
-    "When first-choice brands were mother brands, 58.8% of replacement choices stayed within the mother-brand category — above chance."
+    "Rescue Club IPA lost the most replacement share (−28), consistent with its highly category-specific appeal: IPA enthusiasts forced into lager territory dispersed widely.",
+    "When first-choice brands were mother brands, 58.8% of replacement choices stayed within the mother-brand category: above chance."
   ],
   "motherBrandLoyaltyUnderOOS": {
     "motherToMother": { "pct": 58.8, "label": "Mother → Mother" },
@@ -21,5 +21,5 @@
     "motherToNonMother": { "pct": 41.2, "label": "Mother → Non-Mother" },
     "nonMotherToNonMother": { "pct": 47.1, "label": "Non-Mother → Non-Mother" }
   },
-  "switchingMatrixDescription": "The 6×6 inter-brand switching matrix revealed a clear competitive structure. Rows represent the original first-choice brand; columns show the replacement selected. The dominant Heineken ↔ Corona inter-brand flow is the single most prominent feature: when Corona is forced OOS, 42% of its loyalists redirect to Heineken — by far the largest single inter-brand flow."
+  "switchingMatrixDescription": "The 6×6 inter-brand switching matrix revealed a clear competitive structure. Rows represent the original first-choice brand; columns show the replacement selected. The dominant Heineken ↔ Corona inter-brand flow is the single most prominent feature: when Corona is forced OOS, 42% of its loyalists redirect to Heineken: by far the largest single inter-brand flow."
 }

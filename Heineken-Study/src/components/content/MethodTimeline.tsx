@@ -68,7 +68,7 @@ const MethodTimeline = ({ stages }: MethodTimelineProps) => {
         {activeStage ? (
           <div>
             <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">
-              Step {stages.findIndex((s) => s.id === activeStage.id) + 1} — Details
+              Step {stages.findIndex((s) => s.id === activeStage.id) + 1}: Details
             </p>
             <h4 className="mt-1.5 text-sm font-semibold text-slate-900">{activeStage.title}</h4>
             <p className="mt-2 text-sm leading-relaxed text-slate-600">{activeStage.description}</p>

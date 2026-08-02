@@ -62,7 +62,7 @@ const DiscrepancyCaseCard = ({ caseItem }: DiscrepancyCaseCardProps) => {
 
       {isOpen && (
         <div className="space-y-6">
-          {/* Narrative — full width, no whitespace waste */}
+          {/* Narrative: full width, no whitespace waste */}
           <div className="space-y-3">
             {caseItem.narrative.map((paragraph) => (
               <p key={paragraph} className="text-sm leading-relaxed text-slate-600">
@@ -71,7 +71,7 @@ const DiscrepancyCaseCard = ({ caseItem }: DiscrepancyCaseCardProps) => {
             ))}
           </div>
 
-          {/* Charts — horizontal grid */}
+          {/* Charts: horizontal grid */}
           <div className={`grid gap-4 ${gridColsClass(caseItem.figures.length)}`}>
             {caseItem.figures.map((figure) => {
               if (figure.kind === 'likelihood') {

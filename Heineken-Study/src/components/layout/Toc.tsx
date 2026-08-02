@@ -27,7 +27,7 @@ const Toc = ({ sections }: TocProps) => {
 
     // IntersectionObserver only reports entries whose state just changed,
     // which drops updates during fast/animated scrolls (e.g. jumping to an
-    // anchor) — the active item can get stuck on whatever last fired.
+    // anchor): the active item can get stuck on whatever last fired.
     // Instead, directly read each heading's position against a fixed
     // reference line below the sticky header: the active section is the
     // last one whose top has scrolled up past that line. This is always

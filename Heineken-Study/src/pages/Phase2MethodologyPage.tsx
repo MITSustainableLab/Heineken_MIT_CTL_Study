@@ -15,7 +15,7 @@ const Phase2MethodologyPage = () => (
     <Section
       id="ph2m-recruitment"
       title="Participant Recruitment and Screening"
-      subtitle="Prolific-based recruitment, eligibility criteria, and sample composition — April 2026"
+      subtitle="Prolific-based recruitment, eligibility criteria, and sample composition: April 2026"
     >
       <div className="space-y-6">
         <Card>
@@ -84,8 +84,8 @@ const Phase2MethodologyPage = () => (
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Screening criteria</p>
           <BulletList
             items={[
-              'US residency (mandatory — auto-terminated upon failure)',
-              'Age 21 or older (mandatory — auto-terminated upon failure)',
+              'US residency (mandatory; auto-terminated upon failure)',
+              'Age 21 or older (mandatory; auto-terminated upon failure)',
               'Target ~1:1 male-to-female gender split via Prolific pre-screening',
               'Broad age range: 21 to 65+ (not restricted beyond legal drinking age)',
               'Four US Census regions represented at ~25% each (North, South, East, West)',
@@ -116,7 +116,7 @@ const Phase2MethodologyPage = () => (
               </p>
             </div>
             <div className="rounded-2xl border border-slate-200 bg-white p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Switching behavior — Variant C only</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Switching behavior: Variant C only</p>
               <p className="mt-2 text-justify leading-relaxed">
                 Replacement product selected after the first-choice product was shown as out-of-stock,
                 enabling computation of a 6×6 inter-brand switching matrix and net gain/loss figures
@@ -136,7 +136,7 @@ const Phase2MethodologyPage = () => (
               },
               {
                 title: 'Decision factor ranking',
-                body: 'Drag-to-rank exercise placing five factors — Taste/Flavour, Brand Trust, Appearance, Price, Health — into ranked positions (1 = most influential). Options were presented in randomized order to prevent order bias.'
+                body: 'Drag-to-rank exercise placing five factors (Taste/Flavour, Brand Trust, Appearance, Price, Health) into ranked positions (1 = most influential). Options were presented in randomized order to prevent order bias.'
               },
               {
                 title: 'Purchase / repurchase intent',
@@ -183,7 +183,7 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 1 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 1 — Landing Page</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 1: Landing Page</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             A simple welcome screen explains the three-part process: answer questions → browse and shop
             → complete your purchase. A warning tells participants not to refresh or press back, as
@@ -191,7 +191,7 @@ const Phase2MethodologyPage = () => (
           </p>
           <ImageLightbox
             src="/images/ph2_step1_landing.png"
-            alt="Step 1 — Landing page"
+            alt="Step 1: Landing page"
             className="max-h-[600px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
           />
@@ -199,7 +199,7 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 2 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 2 — Pre-Study Questionnaire (Screening + Demographics)</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 2: Pre-Study Questionnaire (Screening + Demographics)</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             All questions are required. Two screening questions immediately terminate the session if
             failed: (1) US residency and (2) age 21 or older. If either answer is "No," a termination
@@ -269,15 +269,15 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 3 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 3 — Welcome Modal and Shopping Task</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 3: Welcome Modal and Shopping Task</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             A welcome modal appears first, explaining the rules: choose one product to purchase within
-            a $15 budget. By completing the purchase the participant enters a lottery — winners receive
+            a $15 budget. By completing the purchase the participant enters a lottery: winners receive
             their selected product plus any unspent budget as cash or gift card.
           </p>
           <ImageLightbox
             src="/images/ph2_step3_shopping.png"
-            alt="Step 3 — Shopping task"
+            alt="Step 3: Shopping task"
             className="max-h-[700px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
           />
@@ -285,14 +285,14 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 4 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 4 — Checkout Page</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 4: Checkout Page</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             Checkout records the participant's NA beer selection to the database, then redirects to the
             post-study questionnaire.
           </p>
           <ImageLightbox
             src="/images/ph2_step4_checkout.png"
-            alt="Step 4 — Checkout page"
+            alt="Step 4: Checkout page"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
           />
@@ -300,7 +300,7 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 5 */}
         <div className="space-y-4">
-          <h3 className="text-sm font-semibold text-slate-800">Step 5 — Post-Study Questionnaire</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 5: Post-Study Questionnaire</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             Shown immediately after checkout. The participant's purchased product name and image are
             displayed at the top of Q1 for context.
@@ -308,7 +308,7 @@ const Phase2MethodologyPage = () => (
 
           <div className="space-y-6">
             <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q1 — Open-Ended Choice Reason</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q1: Open-Ended Choice Reason</p>
               <p className="text-sm text-slate-600 text-justify leading-relaxed">
                 "Why did you choose this particular product?" Free-text response. In Variant C, two
                 open-ended questions are asked: why was the first choice selected, and why was the
@@ -316,43 +316,43 @@ const Phase2MethodologyPage = () => (
               </p>
               <ImageLightbox
                 src="/images/ph2_step5_q1_reason.png"
-                alt="Q1 — Open-ended choice reason"
+                alt="Q1: Open-ended choice reason"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
               />
             </div>
 
             <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q2 — Factor Ranking (Drag-to-Rank)</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q2: Factor Ranking (Drag-to-Rank)</p>
               <p className="text-sm text-slate-600 text-justify leading-relaxed">
-                Participants drag five factors — Health, Taste/Flavour, Brand Trust, Appearance, Price —
+                Participants drag five factors (Health, Taste/Flavour, Brand Trust, Appearance, Price)
                 into five ranked slots (1 = most influential). Factors are presented in a randomized order
                 (Fisher-Yates shuffle) to prevent presentation bias.
               </p>
               <ImageLightbox
                 src="/images/ph2_step5_q2_ranking.png"
-                alt="Q2 — Factor ranking"
+                alt="Q2: Factor ranking"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
               />
             </div>
 
             <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q3 — Brand Familiarity (Radio Grid)</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q3: Brand Familiarity (Radio Grid)</p>
               <p className="text-sm text-slate-600 text-justify leading-relaxed">
                 "How familiar are you with each of these brands?" All 6 brands must be rated on a
                 5-level scale from "Never heard of it" (1) to "Drink regularly" (5).
               </p>
               <ImageLightbox
                 src="/images/ph2_step5_q3_familiarity.png"
-                alt="Q3 — Brand familiarity"
+                alt="Q3: Brand familiarity"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
               />
             </div>
 
             <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q4 — Repurchase Intent</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Q4: Repurchase Intent</p>
               <p className="text-sm text-slate-600 text-justify leading-relaxed">
                 Variants A/B: "If you were making similar purchases in the future, how likely is it
                 that you would repeatedly choose this brand?" Variant C: "Would you purchase [replacement
@@ -360,7 +360,7 @@ const Phase2MethodologyPage = () => (
               </p>
               <ImageLightbox
                 src="/images/ph2_step5_q4_repurchase.png"
-                alt="Q4 — Repurchase intent"
+                alt="Q4: Repurchase intent"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
               />
@@ -370,7 +370,7 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 6 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 6 — Prize Choice</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 6: Prize Choice</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             Participants choose between two lottery prize options: (1) receive the products they
             selected delivered, plus any unspent budget as cash/gift card, or (2) skip delivery and
@@ -378,7 +378,7 @@ const Phase2MethodologyPage = () => (
           </p>
           <ImageLightbox
             src="/images/ph2_step6_prize.png"
-            alt="Step 6 — Prize choice"
+            alt="Step 6: Prize choice"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
           />
@@ -386,14 +386,14 @@ const Phase2MethodologyPage = () => (
 
         {/* Step 7 */}
         <div className="space-y-3">
-          <h3 className="text-sm font-semibold text-slate-800">Step 7 — Prolific Completion Redirect</h3>
+          <h3 className="text-sm font-semibold text-slate-800">Step 7: Prolific Completion Redirect</h3>
           <p className="text-sm text-slate-600 text-justify leading-relaxed">
             After the prize choice, participants are redirected back to Prolific with a successful
             completion code, confirming payment eligibility.
           </p>
           <ImageLightbox
             src="/images/ph2_step7_redirect.png"
-            alt="Step 7 — Prolific redirect"
+            alt="Step 7: Prolific redirect"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
           />

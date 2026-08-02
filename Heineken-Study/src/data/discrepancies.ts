@@ -150,7 +150,7 @@ export const discrepancyCases: DiscrepancyCase[] = [
   },
   {
     id: 'discrepancy-3',
-    title: 'Discrepancy 3: Beck’s Blue — Stated Likelihood vs. Multi-Brand Choice Outcome',
+    title: 'Discrepancy 3: Beck’s Blue: Stated Likelihood vs. Multi-Brand Choice Outcome',
     figures: [
       {
         id: 'figure-42',

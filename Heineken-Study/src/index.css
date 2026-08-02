@@ -38,7 +38,7 @@
    Placed outside @layer so it beats Tailwind utility classes like text-sm. */
 .section-anchor p,
 .section-anchor li {
-  font-size: 1.0625rem; /* 17px — up from text-sm 14px */
+  font-size: 1.0625rem; /* 17px: up from text-sm 14px */
 }
 
 @layer components {

@@ -1,6 +1,6 @@
 {
   "context": [
-    "Heineken N.V. is one of the world's largest brewing companies, distributing its flagship lager to 192 countries since 1873. In 2017, the company launched Heineken 0.0 — a zero-alcohol variant of its iconic lager — as its primary entry into the rapidly growing non-alcoholic beer category.",
+    "Heineken N.V. is one of the world's largest brewing companies, distributing its flagship lager to 192 countries since 1873. In 2017, the company launched Heineken 0.0 (a zero-alcohol variant of its iconic lager) as its primary entry into the rapidly growing non-alcoholic beer category.",
     "The non-alcoholic beer market has expanded significantly in recent years. Previously a niche segment associated with designated drivers or medical necessity, non-alcoholic beer has been reframed as a lifestyle and wellness choice, attracting both existing beer drinkers seeking moderation and new consumers who have never regularly consumed alcohol.",
     "Study I of this research collaboration (Sustainable Sips, December 2025) demonstrated that Heineken 0.0 captured 63.1% of selections against fictional non-branded alternatives, and that brand perception scores (p<0.001) strongly predicted purchase likelihood.",
     "Study II of the Sober Spirits study was designed to answer a critical question that Study I could not: does the mother-brand advantage hold up in a realistic, competitive shopping environment? In Study I, participants chose between pairs of brands in controlled, one-on-one comparisons. That setting was useful for establishing whether a preference exists, but it does not reflect how consumers actually shop. In the real world, a consumer standing in front of a store shelf or browsing an online retailer does not face a simple binary choice. They see multiple brands at once, each with its own price, packaging, and reputation, and they must decide which one is worth their money.",
@@ -21,7 +21,7 @@
     {
       "id": "RQ3",
       "question": "How do consumers respond when their preferred non-alcoholic brand is unavailable (out-of-stock)?",
-      "explanation": "Variant C introduces a novel behavioral measure — the out-of-stock redirect — to assess revealed brand loyalty under friction conditions. What switching patterns emerge, and what does this reveal about the depth of mother-brand loyalty on a competitive shelf? This question is specifically addressed in Study II, since we look at a more realistic purchase behavior."
+      "explanation": "Variant C introduces a novel behavioral measure (the out-of-stock redirect) to assess revealed brand loyalty under friction conditions. What switching patterns emerge, and what does this reveal about the depth of mother-brand loyalty on a competitive shelf? This question is specifically addressed in Study II, since we look at a more realistic purchase behavior."
     }
   ],
   "hypotheses": [
@@ -42,7 +42,7 @@
     },
     {
       "id": "H4",
-      "statement": "Heineken will function as a competitive 'safe fallback' brand under out-of-stock (OOS) conditions — gaining net share when other brands are unavailable.",
+      "statement": "Heineken will function as a competitive 'safe fallback' brand under out-of-stock (OOS) conditions: gaining net share when other brands are unavailable.",
       "rationale": "Given Heineken's high familiarity and universal brand recognition, it was hypothesized that when consumers are forced to choose a second-best option, they will disproportionately gravitate toward Heineken as a low-risk substitute. This novel hypothesis was introduced in Study II's out-of-stock experiment."
     }
   ]

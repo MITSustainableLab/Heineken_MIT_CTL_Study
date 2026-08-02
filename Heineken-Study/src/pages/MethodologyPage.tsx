@@ -212,7 +212,7 @@ const MethodologyPage = () => (
                                 <ImageLightbox
                                     src="/images/ClearHops_0.0_can.jpg"
                                     alt="ClearHops 0.0"
-                                    caption="ClearHops 0.0 — fictional brand used as zero-familiarity baseline"
+                                    caption="ClearHops 0.0: fictional brand used as zero-familiarity baseline"
                                     className="max-h-[400px] max-w-full object-contain"
                                     containerClassName="flex min-h-[220px] items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
                                 />
@@ -223,7 +223,7 @@ const MethodologyPage = () => (
                                 <ImageLightbox
                                     src="/images/Starbrew.png"
                                     alt="Star Brew Non-Alcoholic"
-                                    caption="Star Brew Non-Alcoholic — fictional brand used as zero-familiarity baseline"
+                                    caption="Star Brew Non-Alcoholic: fictional brand used as zero-familiarity baseline"
                                     className="max-h-[400px] max-w-full object-contain"
                                     containerClassName="flex min-h-[220px] items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
                                 />
@@ -383,14 +383,14 @@ const MethodologyPage = () => (
                         <ImageLightbox
                             src="/images/bottle_v_bottle.png"
                             alt="One-on-one bottle comparison layout"
-                            caption="One-on-one paired comparison — bottle format"
+                            caption="One-on-one paired comparison: bottle format"
                             className="max-h-[500px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />
                         <ImageLightbox
                             src="/images/can_v_can_price.png"
                             alt="One-on-one can comparison with price"
-                            caption="One-on-one paired comparison — can format with price tags"
+                            caption="One-on-one paired comparison: can format with price tags"
                             className="max-h-[500px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />
@@ -426,14 +426,14 @@ const MethodologyPage = () => (
                         <ImageLightbox
                             src="/images/multirand_cans.png"
                             alt="Multi-brand can shelf layout"
-                            caption="Multi-brand choice task — can format shelf display"
+                            caption="Multi-brand choice task: can format shelf display"
                             className="max-h-[480px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />
                         <ImageLightbox
                             src="/images/multibrand_bottles.png"
                             alt="Multi-brand bottle shelf layout"
-                            caption="Multi-brand choice task — bottle format shelf display"
+                            caption="Multi-brand choice task: bottle format shelf display"
                             className="max-h-[480px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />

@@ -152,17 +152,17 @@ const Phase2ReportPage = () => {
         </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
-          <Callout variant="insight" title="Key Finding — Mother Brand">
+          <Callout variant="insight" title="Key Finding: Mother Brand">
             Mother brands (Heineken, Corona, Budweiser) captured <strong>58–63%</strong> of shelf
-            selections across all three variants — significantly above the 50% null baseline.
+            selections across all three variants: significantly above the 50% null baseline.
           </Callout>
-          <Callout variant="method" title="Key Finding — Price Effect">
+          <Callout variant="method" title="Key Finding: Price Effect">
             Heineken's share rose from <strong>13.3% → 20.5%</strong> (+7.2 pp) when price was
             equalized at $10.99, revealing a commercially addressable pricing headwind.
           </Callout>
-          <Callout variant="note" title="Key Finding — Safe Fallback">
+          <Callout variant="note" title="Key Finding: Safe Fallback">
             When Corona was out of stock, <strong>42%</strong> of its loyalists switched to
-            Heineken — the largest single inter-brand switching flow in the study.
+            Heineken: the largest single inter-brand switching flow in the study.
           </Callout>
         </div>
       </Section>
@@ -191,7 +191,7 @@ const Phase2ReportPage = () => {
             </div>
             <ImageLightbox
               src="/images/Variant_A_Shelf.png"
-              alt="Variant A — Real-world pricing shelf"
+              alt="Variant A: Real-world pricing shelf"
               caption="Variant A: shelf with real-world market prices"
               className="max-h-[220px] w-full object-contain"
               containerClassName="flex items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white"
@@ -209,7 +209,7 @@ const Phase2ReportPage = () => {
             </div>
             <ImageLightbox
               src="/images/Variant_B_Shelf.png"
-              alt="Variant B — Price-equalised shelf"
+              alt="Variant B: Price-equalised shelf"
               caption="Variant B: all products priced at $10.99"
               className="max-h-[220px] w-full object-contain"
               containerClassName="flex items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white"
@@ -227,7 +227,7 @@ const Phase2ReportPage = () => {
             </div>
             <ImageLightbox
               src="/images/Variant_C_Shelf.png"
-              alt="Variant C — Out-of-stock shelf"
+              alt="Variant C: Out-of-stock shelf"
               caption="Variant C: first-choice product shown as sold out"
               className="max-h-[220px] w-full object-contain"
               containerClassName="flex items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white"
@@ -298,7 +298,7 @@ const Phase2ReportPage = () => {
           <StatCard label="NA beer newcomers"  value="34.2%"       note="Never consumed NA beer" />
         </div>
 
-        {/* Sample characteristics — chart default, table via "View data" */}
+        {/* Sample characteristics: chart default, table via "View data" */}
         <div className="grid gap-6 lg:grid-cols-2">
           {/* Gender */}
           <ChartCard
@@ -608,7 +608,7 @@ const Phase2ReportPage = () => {
               <Callout variant="insight" title="Gender Insight">
                 Gender is the strongest demographic predictor of mother-brand preference
                 (chi-sq p=0.016). The 11.5 pp gap is driven by female participants' elevated
-                preference for Corona Sunbrew — specifically its vitamin D positioning and packaging.
+                preference for Corona Sunbrew: specifically its vitamin D positioning and packaging.
                 Male participants show higher rates for Rescue Club IPA and rank Price as #1
                 more frequently (11.4% vs 6.4%).
               </Callout>
@@ -656,7 +656,7 @@ const Phase2ReportPage = () => {
                 The 21–24 cohort shows the highest mother-brand preference at 75.0%, reflecting
                 young consumers' reliance on globally recognised brand names in an unfamiliar
                 category. Heineken 0.0 shows its highest selection rates among 45–54 (23.0%)
-                and 65+ (22.2%) cohorts — consistent with its established brand history skewing
+                and 65+ (22.2%) cohorts: consistent with its established brand history skewing
                 toward older consumers.
               </Callout>
             </div>
@@ -703,7 +703,7 @@ const Phase2ReportPage = () => {
                 Activity level is one of only two demographic variables reaching statistical
                 significance (p=0.028). The relationship is <em>non-linear</em>: Active
                 participants (4–5 days/week) show the highest preference at 66.7%, while
-                Very Active participants (6–7 days/week) drop to 42.6% — the only segment
+                Very Active participants (6–7 days/week) drop to 42.6%: the only segment
                 below the 50% null. Very Active consumers also show the highest Appearance
                 prioritisation (27.7%), consistent with wellness product literacy.
               </Callout>
@@ -750,7 +750,7 @@ const Phase2ReportPage = () => {
               </Card>
               <Callout variant="insight" title="Alcohol Frequency Insight">
                 The &lt;once-a-month group shows the <em>highest</em> mother-brand preference
-                (68.4%) — carrying high brand awareness without frequent consumption experience,
+                (68.4%): carrying high brand awareness without frequent consumption experience,
                 making brand reputation their dominant heuristic. Non-drinkers show the only
                 below-50% rate (49.4%). Taste prioritisation rises steeply with drinking
                 frequency (37.3% → 56.6%), suggesting a shift from brand- to taste-led choice.
@@ -902,7 +902,7 @@ const Phase2ReportPage = () => {
               },
               {
                 brand: 'Corona Sunbrew',
-                profile: 'Multi-dimensional rationale: prior brand experience (50%), taste expectations (42%), and appearance/packaging (23%). Vitamin D positioning is a notable differentiator.',
+                profile: 'Appearance as the top factor rose from 6.8% to 17.9% in Variant B. Brand trust (40.3%) was the leading motivator among Corona buyers.',
                 quotes: [
                   '"It said it has vitamin D in it and I\'m regularly deficient in that."',
                   '"I thought it was different from the others because of the vitamin D."'
@@ -910,9 +910,9 @@ const Phase2ReportPage = () => {
               },
               {
                 brand: 'Rescue Club IPA',
-                profile: 'Entirely driven by category preference (55%) and aesthetics (45%). Confirms competitive moat is category differentiation, not brand equity.',
+                profile: 'Rescue Club buyers were primarily motivated by IPA/style preference (~55% in A, ~57-62% in B), though packaging was also important for about one-third of Variant B buyers.',
                 quotes: [
-                  '"I love IPAs — this was the only one on the shelf."',
+                  '"I love IPAs: this was the only one on the shelf."',
                   '"The name Rescue Club appealed to me. I also really like the blue stripe on the can."'
                 ]
               }
@@ -950,7 +950,7 @@ const Phase2ReportPage = () => {
           <p className="text-sm text-slate-600 text-justify">By contrast, Rescue Club IPA, despite its strong overall selection share, showed a more fragmented switching pattern. When out of stock, its buyers split fairly evenly between Clausthaler and Corona, with no single dominant switch destination, suggesting that Rescue Club buyers are more exploratory in nature and less anchored to a specific brand identity.</p>
         </div>
 
-        {/* Switching matrix — full width */}
+        {/* Switching matrix: full width */}
         <div className="space-y-1">
           <ImageLightbox
             src="/images/h4_switching_matrix.png"
@@ -969,11 +969,11 @@ const Phase2ReportPage = () => {
               <ImageLightbox
                 src="/images/h4_net_migration.png"
                 alt="Net brand migration under OOS conditions"
-                caption="Net brand migration under OOS conditions — first-choice vs replacement selection counts."
+                caption="Net brand migration under OOS conditions: first-choice vs replacement selection counts."
                 className="max-h-[260px] w-full object-contain"
                 containerClassName="flex items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white"
               />
-              <p className="text-xs text-slate-400 text-center">Net brand migration under OOS conditions — first-choice vs replacement selection counts.</p>
+              <p className="text-xs text-slate-400 text-center">Net brand migration under OOS conditions: first-choice vs replacement selection counts.</p>
             </div>
             <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
               <table className="min-w-full text-left text-sm">
@@ -1063,7 +1063,7 @@ const Phase2ReportPage = () => {
         <div className="grid gap-6 lg:grid-cols-2">
           {/* Variants A & B table */}
           <Card>
-            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Top-2 Box Repurchase Intent by Brand — Variants A &amp; B (%)</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Top-2 Box Repurchase Intent by Brand: Variants A &amp; B (%)</p>
             <div className="overflow-x-auto">
               <table className="min-w-full text-sm">
                 <thead className="text-xs uppercase text-slate-500">
@@ -1093,7 +1093,7 @@ const Phase2ReportPage = () => {
           {/* Variant C table */}
           <div className="space-y-4">
             <Card>
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Variant C — Repurchase Intent for Replacement Product (%)</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Variant C: Repurchase Intent for Replacement Product (%)</p>
               <div className="grid grid-cols-3 gap-3 mb-4">
                 <div className="rounded-lg bg-slate-50 p-3 text-center">
                   <p className="text-xl font-bold text-slate-800">{phase2BrandSelection.repurchaseIntentVarC.overallTop2}%</p>
@@ -1136,7 +1136,7 @@ const Phase2ReportPage = () => {
 
         <Callout variant="insight" title="Repurchase Intent Insight">
           Heineken achieves top-2 repurchase intent of <strong>77.8%</strong> (Var A) and <strong>83.7%</strong> (Var B)
-          among those who chose it — indicating highly loyal, high-conviction buyers. The disconnect
+          among those who chose it: indicating highly loyal, high-conviction buyers. The disconnect
           between modest first-choice share (13–20%) and high repurchase intent (78–84%) suggests
           Heineken has a loyal core that is smaller than its brand equity would suggest. The strategic
           challenge is to convert brand awareness and trust into a first trial.
@@ -1155,12 +1155,12 @@ const Phase2ReportPage = () => {
                 { src: '/images/h1_brand_selection.png',   caption: 'Brand selection share by experimental variant. Dashed line = 16.7% uniform random baseline.' },
               ],
               H2: [
-                { src: '/images/h2_familiarity_scores.png',          caption: 'Mean familiarity scores and brand unawareness rates across all six brands.' },
+                { src: '/images/h2_familiarity_scores.png',          caption: 'Mean familiarity scores and brand awareness rates across all six brands.' },
                 { src: '/images/h2_selection_by_familiarity.png',     caption: 'Heineken 0.0 selection rate by self-reported familiarity level, across all three variants.' },
               ],
               H3: [
                 { src: '/images/h3_drinking_segment.png',  caption: 'Mother-brand selection rate by drinking segment (regular, occasional, non-drinkers) across variants.' },
-                { src: '/images/h3_segment_table.png',     caption: 'Mother-brand selection rate by drinking segment — summary table.' },
+                { src: '/images/h3_segment_table.png',     caption: 'Mother-brand selection rate by drinking segment: summary table.' },
               ],
               H4: [
                 { src: '/images/h4_heineken_fallback.png',       caption: 'Where Heineken loyalists switch when OOS, and where Heineken replacement-choosers came from.' },
@@ -1311,7 +1311,7 @@ const Phase2ReportPage = () => {
               preference by 9–10 pp. The South is the singular exception: mother-brand preference
               drops 7.1 pp from Variant A (73.8%) to Variant B (66.7%). Southern consumers choose
               Corona and Heineken by brand conviction, not price calculation. Strategic implication:
-              price promotions are not the right lever for the South — brand-heritage messaging is.
+              price promotions are not the right lever for the South: brand-heritage messaging is.
             </Callout>
           </div>
         )}
@@ -1377,8 +1377,8 @@ const Phase2ReportPage = () => {
             <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
               <tr>
                 <th className="px-4 py-3" rowSpan={2}>Demographic Category</th>
-                <th className="px-4 py-2 text-center border-b border-slate-200" colSpan={2}>Mother Brand Chosen</th>
-                <th className="px-4 py-2 text-center border-b border-l border-slate-200" colSpan={2}>% Heineken Chosen</th>
+                <th className="px-4 py-2 text-center border-b border-slate-200" colSpan={2}>Dependent variable: Mother brand chosen (Yes=1)</th>
+                <th className="px-4 py-2 text-center border-b border-l border-slate-200" colSpan={2}>Dependent variable: % Choosing Heineken</th>
               </tr>
               <tr className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                 <th className="px-4 py-2 text-right">Odds Ratio</th>
@@ -1389,50 +1389,50 @@ const Phase2ReportPage = () => {
             </thead>
             <tbody>
               {([
-                { type: 'header', category: 'GENDER', chiSq: 'p = 0.001' },
-                { type: 'row', category: 'Male (reference)',              motherOR: '1.000', motherSE: '[0.028]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'header', category: 'GENDER' },
+                { type: 'row', category: 'Male (reference)',              motherOR: '1.000', motherSE: '[0.028]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: 'Female',                        motherOR: '1.61**', motherSE: '[0.028]', heinCoef: '−7.837*',  heinSE: '[3.194]' },
-                { type: 'header', category: 'AGE', chiSq: 'p = 0.000' },
+                { type: 'header', category: 'AGE' },
                 { type: 'row', category: '21–24',                         motherOR: '2.270', motherSE: '[0.066]', heinCoef: '−14.167*', heinSE: '[5.518]' },
-                { type: 'row', category: '25–34 (reference)',             motherOR: '1.000', motherSE: '[0.036]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'row', category: '25–34 (reference)',             motherOR: '1.000', motherSE: '[0.036]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: '35–44',                         motherOR: '0.700', motherSE: '[0.036]', heinCoef: '−4.320',   heinSE: '[3.932]' },
                 { type: 'row', category: '45–54',                         motherOR: '0.910', motherSE: '[0.045]', heinCoef: '3.347',    heinSE: '[5.012]' },
                 { type: 'row', category: '55–65',                         motherOR: '1.180', motherSE: '[0.064]', heinCoef: '−4.089',   heinSE: '[5.701]' },
                 { type: 'row', category: '65+',                           motherOR: '0.780', motherSE: '[0.117]', heinCoef: '4.036',    heinSE: '[11.404]' },
-                { type: 'header', category: 'EDUCATION', chiSq: 'p = 0.002' },
+                { type: 'header', category: 'EDUCATION' },
                 { type: 'row', category: 'High school or below',          motherOR: '1.450', motherSE: '[0.036]', heinCoef: '−1.138',   heinSE: '[4.209]' },
                 { type: 'row', category: "Associate's degree",            motherOR: '0.900', motherSE: '[0.050]', heinCoef: '−2.330',   heinSE: '[4.879]' },
-                { type: 'row', category: "Bachelor's degree (reference)", motherOR: '1.000', motherSE: '[0.032]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'row', category: "Bachelor's degree (reference)", motherOR: '1.000', motherSE: '[0.032]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: 'Graduate degree and above',     motherOR: '0.850', motherSE: '[0.049]', heinCoef: '−6.232',   heinSE: '[4.139]' },
-                { type: 'header', category: 'INCOME', chiSq: 'p = 0.008' },
+                { type: 'header', category: 'INCOME' },
                 { type: 'row', category: 'Under $25k',                    motherOR: '1.170', motherSE: '[0.047]', heinCoef: '6.329',    heinSE: '[5.238]' },
                 { type: 'row', category: '$25,000–$49,999',               motherOR: '1.000', motherSE: '[0.043]', heinCoef: '2.419',    heinSE: '[4.537]' },
-                { type: 'row', category: '$50,000–$74,999 (reference)',   motherOR: '1.000', motherSE: '[0.041]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'row', category: '$50,000–$74,999 (reference)',   motherOR: '1.000', motherSE: '[0.041]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: '$75,000–$99,999',               motherOR: '0.840', motherSE: '[0.054]', heinCoef: '3.542',    heinSE: '[5.134]' },
                 { type: 'row', category: '$100,000–$149,999',             motherOR: '1.070', motherSE: '[0.053]', heinCoef: '0.844',    heinSE: '[5.586]' },
                 { type: 'row', category: '$150,000+',                     motherOR: '0.850', motherSE: '[0.068]', heinCoef: '4.795',    heinSE: '[6.612]' },
-                { type: 'header', category: 'ACTIVITY LEVEL', chiSq: 'p = 0.000' },
+                { type: 'header', category: 'ACTIVITY LEVEL' },
                 { type: 'row', category: 'Minimally Active',              motherOR: '0.770', motherSE: '[0.060]', heinCoef: '2.342',    heinSE: '[5.135]' },
                 { type: 'row', category: 'Lightly Active',                motherOR: '0.810', motherSE: '[0.046]', heinCoef: '4.520',    heinSE: '[4.226]' },
-                { type: 'row', category: 'Moderately Active (reference)', motherOR: '1.000', motherSE: '[0.035]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'row', category: 'Moderately Active (reference)', motherOR: '1.000', motherSE: '[0.035]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: 'Active (4–5 days/wk)',          motherOR: '1.320', motherSE: '[0.035]', heinCoef: '10.553*',  heinSE: '[4.195]' },
                 { type: 'row', category: 'Very Active (6–7 days/wk)',     motherOR: '0.49*', motherSE: '[0.072]', heinCoef: '−9.55*',   heinSE: '[4.819]' },
-                { type: 'header', category: 'ALCOHOL FREQUENCY', chiSq: 'p = 0.000' },
+                { type: 'header', category: 'ALCOHOL FREQUENCY' },
                 { type: 'row', category: 'Never',                         motherOR: '0.610', motherSE: '[0.055]', heinCoef: '5.939',    heinSE: '[4.933]' },
                 { type: 'row', category: 'Less than once a month',        motherOR: '1.400', motherSE: '[0.044]', heinCoef: '8.109',    heinSE: '[4.699]' },
-                { type: 'row', category: '1–3 times per month (reference)', motherOR: '1.000', motherSE: '[0.038]', heinCoef: '1.000', heinSE: '—' },
+                { type: 'row', category: '1–3 times per month (reference)', motherOR: '1.000', motherSE: '[0.038]', heinCoef: '1.000', heinSE: 'N/A' },
                 { type: 'row', category: 'Once a week',                   motherOR: '0.960', motherSE: '[0.048]', heinCoef: '5.265',    heinSE: '[4.594]' },
                 { type: 'row', category: '2–3+ times per week',           motherOR: '0.810', motherSE: '[0.042]', heinCoef: '4.931',    heinSE: '[4.346]' },
-                { type: 'header', category: 'NA BEER FREQUENCY', chiSq: 'p = 0.005' },
+                { type: 'header', category: 'NA BEER FREQUENCY' },
                 { type: 'row', category: 'Never',                         motherOR: '1.290', motherSE: '[0.034]', heinCoef: '−4.876',   heinSE: '[3.850]' },
                 { type: 'row', category: 'Tried once',                    motherOR: '1.410', motherSE: '[0.044]', heinCoef: '−1.865',   heinSE: '[4.513]' },
-                { type: 'row', category: 'Occasionally (reference)',      motherOR: '1.000', motherSE: '[0.034]', heinCoef: '1.000',     heinSE: '—' },
+                { type: 'row', category: 'Occasionally (reference)',      motherOR: '1.000', motherSE: '[0.034]', heinCoef: '1.000',     heinSE: 'N/A' },
                 { type: 'row', category: 'Regularly (≥1x/month)',        motherOR: '0.910', motherSE: '[0.061]', heinCoef: '0.680',    heinSE: '[5.448]' },
-              ] as Array<{ type: string; category: string; chiSq?: string; motherOR?: string; motherSE?: string; heinCoef?: string; heinSE?: string }>).map((row, i) =>
+              ] as Array<{ type: string; category: string; motherOR?: string; motherSE?: string; heinCoef?: string; heinSE?: string }>).map((row, i) =>
                 row.type === 'header' ? (
                   <tr key={i} className="bg-slate-100">
                     <td colSpan={5} className="px-4 py-2 text-xs font-bold uppercase tracking-wide text-slate-600">
-                      {row.category} <span className="font-normal normal-case text-slate-500">— overall chi-sq {row.chiSq}</span>
+                      {row.category}
                     </td>
                   </tr>
                 ) : (
@@ -1448,20 +1448,19 @@ const Phase2ReportPage = () => {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-slate-500">** p&lt;0.05 &nbsp; * p&lt;0.10. SE = standard error in brackets. Reference categories shown with OR / Coef. = 1.000.</p>
+        <p className="text-xs text-slate-500">** p&lt;0.05 &nbsp; * p&lt;0.10. SE = standard error in brackets. Reference categories shown with OR = 1.000.</p>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            { title: 'Gender: Opposite Effects on Heineken and Corona', body: 'Females are significantly more likely to choose Corona (OR=3.158, p<0.001), while males directionally lean toward Heineken (female OR=0.629, p=0.071). The aggregate mother-brand gender effect is entirely a Corona effect — Heineken\'s natural demographic home is male consumers.' },
-            { title: 'Age: Older → Heineken, Younger → Corona', body: 'Each age-group step is associated with +18.8% odds of choosing Heineken and −20.5% odds of choosing Corona. Heineken\'s natural consumer cohort is older adults (45+), consistent with decades-long advertising history.' },
-            { title: 'Beer Frequency Specifically Predicts Heineken', body: 'Beer drinking frequency significantly predicted Heineken selection (OR = 1.498, p < .05), with each one-unit increase in drinking frequency associated with a 49.8% increase in the odds of choosing Heineken. No significant association was found for Corona.' },
-            { title: 'NA Beer Experience Reduces Mother-Brand Reliance', body: 'Each step increase in NA beer consumption frequency reduces the probability of choosing any mother brand by 4.8 pp (p=0.029). A two-stage funnel applies: trust-led acquisition for the category-naive, taste-led retention for the experienced.' },
-            { title: 'Physical Activity: Non-Linear Effect', body: 'Active consumers (4–5 days/week) peak at 66.7% mother-brand preference, but Very Active (6–7 days/week) drop to 42.6%. Very Active consumers are the most visible NA beer consumers in wellness contexts yet are least responsive to mother-brand positioning.' },
-            { title: 'Price Suppression Is Partially Captured', body: 'The Variant B dummy (OR=1.404, Heineken) is positive but not significant. The pricing effect is partially absorbed by the brand-specific model, consistent with price being a moderator of the familiarity-to-selection pathway rather than an independent driver.' }
+            { title: 'Gender: Mother-Brand Preference, But Not Heineken-Specific', body: 'Female respondents have 1.61 times the odds of choosing a mother brand versus male respondents (OR=1.61, p<0.05), but a negative Heineken-specific coefficient (−7.837, p<0.10).' },
+            { title: 'Age: Youngest Cohort Favors Mother Brands, Not Heineken', body: 'The 21–24 age group shows the highest mother-brand odds of any age band (OR=2.270 vs. the 25–34 reference) but the most negative Heineken coefficient (−14.167, p<0.10).' },
+            { title: 'Alcohol Frequency: Heineken Skews Toward Lighter Drinkers', body: 'Heineken coefficients are highest among Never (5.939) and Less-than-once-a-month (8.109) drinkers relative to the 1–3 times/month reference, while mother-brand odds for the same groups are 0.610 and 1.400 respectively: infrequent drinkers lean toward Heineken specifically more than toward mother brands overall.' },
+            { title: 'NA Beer Experience: Regular Users Rely Least on Mother-Brand Cues', body: 'Mother-brand odds decline as NA beer experience increases: Never=1.290, Tried once=1.410, Regularly (≥1x/month)=0.910, versus the Occasionally reference: the most experienced NA beer drinkers are the least reliant on mother-brand signaling.' },
+            { title: 'Activity Level: Non-Linear Effect Peaking at Active', body: 'Active consumers (4–5 days/week) show the highest mother-brand odds (OR=1.320) and a strongly positive Heineken coefficient (10.553, p<0.10), while Very Active consumers (6–7 days/week) drop sharply on both (OR=0.49, p<0.10; Heineken coefficient −9.55, p<0.10): a non-linear pattern across activity levels.' }
           ].map(item => (
-            <Card key={item.title}>
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{item.title}</p>
-              <p className="mt-2 text-sm text-slate-600 text-justify leading-relaxed">{item.body}</p>
+            <Card key={item.title} className="flex flex-col gap-2">
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 leading-snug">{item.title}</p>
+              <p className="text-sm text-slate-600 text-left leading-relaxed">{item.body}</p>
             </Card>
           ))}
         </div>
@@ -1542,7 +1541,7 @@ const Phase2ReportPage = () => {
 
         <Callout variant="insight" title="Overall Conclusion">
           Mother brand matters for a non-alcoholic beer to be successful. Heineken 0.0 is
-          well-positioned to lead the non-alcoholic beer category — its brand trust, universal
+          well-positioned to lead the non-alcoholic beer category: its brand trust, universal
           familiarity, and safe-fallback positioning create a durable competitive foundation.
           The primary challenge is converting that equity into first-choice selection through
           targeted pricing strategy, packaging differentiation, and expanded trial generation.
