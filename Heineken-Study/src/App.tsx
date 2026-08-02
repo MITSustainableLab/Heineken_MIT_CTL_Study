@@ -37,7 +37,7 @@ const App = () => {
 
   const handlePageChange = (pageId: string) => {
     setActivePage(pageId);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
   };
 
   return (

@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react';
+import { ReactNode, useRef, useState } from 'react';
 import clsx from 'clsx';
 
 interface AccordionItem {
@@ -14,6 +14,19 @@ interface AccordionProps {
 
 const Accordion = ({ items, defaultOpenId }: AccordionProps) => {
   const [openId, setOpenId] = useState(defaultOpenId ?? items[0]?.id);
+  const buttonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+
+  const handleToggle = (id: string, isOpen: boolean) => {
+    const nextId = isOpen ? '' : id;
+    setOpenId(nextId);
+    if (nextId) {
+      // Collapsing another item can shift this button off-screen; re-anchor
+      // the viewport on it once the new layout has settled.
+      requestAnimationFrame(() => {
+        buttonRefs.current[nextId]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+  };
 
   return (
     <div className="space-y-2">
@@ -28,10 +41,11 @@ const Accordion = ({ items, defaultOpenId }: AccordionProps) => {
             )}
           >
             <button
+              ref={(el) => { buttonRefs.current[item.id] = el; }}
               type="button"
-              className="flex w-full items-center justify-between gap-3 px-5 py-3.5 text-left"
+              className="flex w-full scroll-mt-24 items-center justify-between gap-3 px-5 py-3.5 text-left"
               aria-expanded={isOpen}
-              onClick={() => setOpenId(isOpen ? '' : item.id)}
+              onClick={() => handleToggle(item.id, isOpen)}
             >
               <span className={clsx(
                 'text-sm font-semibold transition-colors',
