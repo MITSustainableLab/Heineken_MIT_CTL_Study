@@ -1,5 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import clsx from 'clsx';
+
+// How far below the sticky header the "active section" reference line sits.
+const ACTIVE_LINE_OFFSET = 110;
 
 export interface TocSection {
   id: string;
@@ -14,31 +17,50 @@ interface TocProps {
 
 const Toc = ({ sections }: TocProps) => {
   const [activeId, setActiveId] = useState<string>('');
-  const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
-    observerRef.current?.disconnect();
-
     const headings = sections
       .map(({ id }) => document.getElementById(id))
       .filter(Boolean) as HTMLElement[];
 
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+    if (headings.length === 0) return;
 
-        if (visible.length > 0) {
-          setActiveId(visible[0].target.id);
+    // IntersectionObserver only reports entries whose state just changed,
+    // which drops updates during fast/animated scrolls (e.g. jumping to an
+    // anchor) — the active item can get stuck on whatever last fired.
+    // Instead, directly read each heading's position against a fixed
+    // reference line below the sticky header: the active section is the
+    // last one whose top has scrolled up past that line. This is always
+    // computed fresh from current layout, so it can't go stale.
+    let ticking = false;
+
+    const updateActiveId = () => {
+      ticking = false;
+      let currentId = headings[0].id;
+      for (const heading of headings) {
+        if (heading.getBoundingClientRect().top <= ACTIVE_LINE_OFFSET) {
+          currentId = heading.id;
+        } else {
+          break;
         }
-      },
-      { rootMargin: '0px 0px -60% 0px', threshold: 0 }
-    );
+      }
+      setActiveId(currentId);
+    };
 
-    headings.forEach((el) => observerRef.current!.observe(el));
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(updateActiveId);
+    };
 
-    return () => observerRef.current?.disconnect();
+    updateActiveId();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+    };
   }, [sections]);
 
   return (

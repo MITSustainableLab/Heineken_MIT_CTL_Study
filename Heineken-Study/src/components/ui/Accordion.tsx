@@ -1,4 +1,4 @@
-import { ReactNode, useRef, useState } from 'react';
+import { ReactNode, useLayoutEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
 
 interface AccordionItem {
@@ -15,18 +15,36 @@ interface AccordionProps {
 const Accordion = ({ items, defaultOpenId }: AccordionProps) => {
   const [openId, setOpenId] = useState(defaultOpenId ?? items[0]?.id);
   const buttonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+  const pendingAnchorRef = useRef<{ id: string; top: number } | null>(null);
 
   const handleToggle = (id: string, isOpen: boolean) => {
-    const nextId = isOpen ? '' : id;
-    setOpenId(nextId);
-    if (nextId) {
-      // Collapsing another item can shift this button off-screen; re-anchor
-      // the viewport on it once the new layout has settled.
-      requestAnimationFrame(() => {
-        buttonRefs.current[nextId]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
+    const button = buttonRefs.current[id];
+    if (button) {
+      // Record where the clicked header sits on screen so we can keep it
+      // pinned there after the open/close reflow, instead of letting the
+      // page jump when another (possibly off-screen) item collapses.
+      pendingAnchorRef.current = { id, top: button.getBoundingClientRect().top };
     }
+    setOpenId(isOpen ? '' : id);
   };
+
+  useLayoutEffect(() => {
+    const anchor = pendingAnchorRef.current;
+    pendingAnchorRef.current = null;
+    if (!anchor) return;
+
+    const el = buttonRefs.current[anchor.id];
+    if (!el) return;
+
+    const newTop = el.getBoundingClientRect().top;
+    const delta = newTop - anchor.top;
+    if (delta !== 0) {
+      // The page sets a global `scroll-behavior: smooth`, which would turn
+      // this correction into a visible glide. Force it instant so the
+      // clicked item simply stays put with no motion at all.
+      window.scrollBy({ top: delta, behavior: 'instant' as ScrollBehavior });
+    }
+  }, [openId]);
 
   return (
     <div className="space-y-2">
@@ -43,7 +61,7 @@ const Accordion = ({ items, defaultOpenId }: AccordionProps) => {
             <button
               ref={(el) => { buttonRefs.current[item.id] = el; }}
               type="button"
-              className="flex w-full scroll-mt-24 items-center justify-between gap-3 px-5 py-3.5 text-left"
+              className="flex w-full items-center justify-between gap-3 px-5 py-3.5 text-left"
               aria-expanded={isOpen}
               onClick={() => handleToggle(item.id, isOpen)}
             >
