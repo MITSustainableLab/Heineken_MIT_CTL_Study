@@ -92,7 +92,6 @@ const ReportPage = () => {
       <Section id="overview" title={reportMeta.title} subtitle={`${reportMeta.subtitle} • ${reportMeta.date}`}>
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-6">
-            <h1 className="text-3xl font-semibold text-slate-900">Heineken x MIT Report 2025</h1>
             <p className="text-sm text-slate-600 text-justify">{narrative.abstract}</p>
 
           </div>

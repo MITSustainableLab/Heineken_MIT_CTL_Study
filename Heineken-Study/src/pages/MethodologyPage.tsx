@@ -104,7 +104,7 @@ const MethodologyPage = () => (
                 <div className="space-y-6">
                     <div className="space-y-4 text-sm text-slate-600">
                         <ImageLightbox
-                            src="/images/experiment_design.png"
+                            src="./images/experiment_design.png"
                             alt="Diagram of experiment layout"
                             caption="Diagram of experiment layout"
                             className="max-h-[420px] w-full object-contain"
@@ -167,14 +167,14 @@ const MethodologyPage = () => (
 
                             <div className="grid gap-4 md:grid-cols-2">
                                 <ImageLightbox
-                                    src="/images/mother_brand_sales_volume.png"
+                                    src="./images/mother_brand_sales_volume.png"
                                     alt="Mother brand sales volume"
                                     caption="Mother brand sales volume"
                                     className="max-h-[320px] w-full object-contain"
                                     containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
                                 />
                                 <ImageLightbox
-                                    src="/images/non_mother_brands_sales_volume.png"
+                                    src="./images/non_mother_brands_sales_volume.png"
                                     alt="Non-mother brand sales volume"
                                     caption="Non-mother brand sales volume"
                                     className="max-h-[320px] w-full object-contain"
@@ -210,7 +210,7 @@ const MethodologyPage = () => (
                         <div className="grid gap-4 md:grid-cols-2">
                             <div className="space-y-2">
                                 <ImageLightbox
-                                    src="/images/ClearHops_0.0_can.jpg"
+                                    src="./images/ClearHops_0.0_can.jpg"
                                     alt="ClearHops 0.0"
                                     caption="ClearHops 0.0: fictional brand used as zero-familiarity baseline"
                                     className="max-h-[400px] max-w-full object-contain"
@@ -221,7 +221,7 @@ const MethodologyPage = () => (
 
                             <div className="space-y-2">
                                 <ImageLightbox
-                                    src="/images/Starbrew.png"
+                                    src="./images/Starbrew.png"
                                     alt="Star Brew Non-Alcoholic"
                                     caption="Star Brew Non-Alcoholic: fictional brand used as zero-familiarity baseline"
                                     className="max-h-[400px] max-w-full object-contain"
@@ -267,7 +267,7 @@ const MethodologyPage = () => (
                         </div>
 
                         <ImageLightbox
-                            src="/images/welcome_screen.png"
+                            src="./images/welcome_screen.png"
                             alt="Welcome screen"
                             caption="Welcome screen shown to participants before the study begins"
                             className="max-h-[480px] w-full object-contain"
@@ -303,7 +303,7 @@ const MethodologyPage = () => (
                         </div>
 
                         <ImageLightbox
-                            src="/images/questions.png"
+                            src="./images/questions.png"
                             alt="Pre-experiment questionnaire screening"
                             caption="Pre-experiment questionnaire and eligibility screening"
                             className="max-h-[480px] w-full object-contain"
@@ -338,7 +338,7 @@ const MethodologyPage = () => (
                         </div>
 
                         <ImageLightbox
-                            src="/images/demogrpahics_questions.png"
+                            src="./images/demogrpahics_questions.png"
                             alt="Demographics questionnaire"
                             caption="Demographics module questions shown to participants"
                             className="max-h-[480px] w-full object-contain"
@@ -381,14 +381,14 @@ const MethodologyPage = () => (
 
                     <div className="mt-4 grid gap-4 md:grid-cols-2">
                         <ImageLightbox
-                            src="/images/bottle_v_bottle.png"
+                            src="./images/bottle_v_bottle.png"
                             alt="One-on-one bottle comparison layout"
                             caption="One-on-one paired comparison: bottle format"
                             className="max-h-[500px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />
                         <ImageLightbox
-                            src="/images/can_v_can_price.png"
+                            src="./images/can_v_can_price.png"
                             alt="One-on-one can comparison with price"
                             caption="One-on-one paired comparison: can format with price tags"
                             className="max-h-[500px] max-w-full object-contain"
@@ -424,14 +424,14 @@ const MethodologyPage = () => (
 
                     <div className="mt-4 grid gap-4 md:grid-cols-2">
                         <ImageLightbox
-                            src="/images/multirand_cans.png"
+                            src="./images/multirand_cans.png"
                             alt="Multi-brand can shelf layout"
                             caption="Multi-brand choice task: can format shelf display"
                             className="max-h-[480px] max-w-full object-contain"
                             containerClassName="flex min-h-[180px] flex-col items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white p-4 overflow-hidden"
                         />
                         <ImageLightbox
-                            src="/images/multibrand_bottles.png"
+                            src="./images/multibrand_bottles.png"
                             alt="Multi-brand bottle shelf layout"
                             caption="Multi-brand choice task: bottle format shelf display"
                             className="max-h-[480px] max-w-full object-contain"
@@ -813,3 +813,4 @@ const MethodologyPage = () => (
 );
 
 export default MethodologyPage;
+

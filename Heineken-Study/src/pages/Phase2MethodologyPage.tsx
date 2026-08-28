@@ -76,7 +76,7 @@ const Phase2MethodologyPage = () => (
           </div>
           <p className="mt-3 text-xs text-slate-400">
             All 614 eligible participants passed US residency and age-21+ screening. No significant
-            between-variant demographic differences (all chi-square p &gt; 0.08).
+            between-variant demographic differences (all χ² p &gt; 0.08).
           </p>
         </Card>
 
@@ -190,7 +190,7 @@ const Phase2MethodologyPage = () => (
             this will end their session.
           </p>
           <ImageLightbox
-            src="/images/ph2_step1_landing.png"
+            src="./images/ph2_step1_landing.png"
             alt="Step 1: Landing page"
             className="max-h-[600px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -276,7 +276,7 @@ const Phase2MethodologyPage = () => (
             their selected product plus any unspent budget as cash or gift card.
           </p>
           <ImageLightbox
-            src="/images/ph2_step3_shopping.png"
+            src="./images/ph2_step3_shopping.png"
             alt="Step 3: Shopping task"
             className="max-h-[700px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -291,7 +291,7 @@ const Phase2MethodologyPage = () => (
             post-study questionnaire.
           </p>
           <ImageLightbox
-            src="/images/ph2_step4_checkout.png"
+            src="./images/ph2_step4_checkout.png"
             alt="Step 4: Checkout page"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -315,7 +315,7 @@ const Phase2MethodologyPage = () => (
                 replacement chosen.
               </p>
               <ImageLightbox
-                src="/images/ph2_step5_q1_reason.png"
+                src="./images/ph2_step5_q1_reason.png"
                 alt="Q1: Open-ended choice reason"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -330,7 +330,7 @@ const Phase2MethodologyPage = () => (
                 (Fisher-Yates shuffle) to prevent presentation bias.
               </p>
               <ImageLightbox
-                src="/images/ph2_step5_q2_ranking.png"
+                src="./images/ph2_step5_q2_ranking.png"
                 alt="Q2: Factor ranking"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -344,7 +344,7 @@ const Phase2MethodologyPage = () => (
                 5-level scale from "Never heard of it" (1) to "Drink regularly" (5).
               </p>
               <ImageLightbox
-                src="/images/ph2_step5_q3_familiarity.png"
+                src="./images/ph2_step5_q3_familiarity.png"
                 alt="Q3: Brand familiarity"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -359,7 +359,7 @@ const Phase2MethodologyPage = () => (
                 product] in real life?" Both use a 5-point scale; top-2 box = Likely or Very Likely.
               </p>
               <ImageLightbox
-                src="/images/ph2_step5_q4_repurchase.png"
+                src="./images/ph2_step5_q4_repurchase.png"
                 alt="Q4: Repurchase intent"
                 className="max-h-[500px] w-full object-contain"
                 containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -377,7 +377,7 @@ const Phase2MethodologyPage = () => (
             receive the full $15 budget as cash or gift card.
           </p>
           <ImageLightbox
-            src="/images/ph2_step6_prize.png"
+            src="./images/ph2_step6_prize.png"
             alt="Step 6: Prize choice"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -392,7 +392,7 @@ const Phase2MethodologyPage = () => (
             completion code, confirming payment eligibility.
           </p>
           <ImageLightbox
-            src="/images/ph2_step7_redirect.png"
+            src="./images/ph2_step7_redirect.png"
             alt="Step 7: Prolific redirect"
             className="max-h-[500px] w-full object-contain"
             containerClassName="flex items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-white overflow-hidden"
@@ -405,3 +405,4 @@ const Phase2MethodologyPage = () => (
 );
 
 export default Phase2MethodologyPage;
+

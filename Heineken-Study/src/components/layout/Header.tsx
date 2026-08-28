@@ -54,9 +54,9 @@ const Header = ({ groups, activePage, onPageChange }: HeaderProps) => {
 
         {/* Brand logos */}
         <div className="flex items-center gap-3">
-          <img src="/images/SSCL_sub-brand_lockup_two-line_rgb_black.png" alt="SSCL" className="h-8 w-auto object-contain" />
+          <img src="./images/SSCL_sub-brand_lockup_two-line_rgb_black.png" alt="SSCL" className="h-8 w-auto object-contain" />
           <span className="text-slate-300 text-lg font-light">×</span>
-          <img src="/images/Heineken-Logo.png" alt="Heineken" className="h-32 w-auto max-w-[250px] object-contain -my-2" />
+          <img src="./images/Heineken-Logo.png" alt="Heineken" className="h-32 w-auto max-w-[250px] object-contain -my-2" />
         </div>
 
         {/* Desktop nav */}

@@ -59,15 +59,15 @@ const priorityColors: Record<string, string> = {
 };
 
 const brandImages: Record<string, string> = {
-  'Heineken 0.0 6-Pack':         '/images/Heineken_Phase_2.png',
-  'Budweiser Zero 6-Pack':       '/images/budweiser_Phase_2.png',
-  'Corona Sunbrew 6-Pack':       '/images/Corona_Phase_2.png',
-  "O'Doul's Golden 6-Pack":      '/images/odouls_phase_2.jpg',
-  'Clausthaler Original 6-Pack': '/images/Claushthaler_Phase_2.jpg',
-  'Rescue Club IPA 6-Pack':      '/images/rescue_club_phase_2.png',
-  'Heineken 0.0':                '/images/Heineken_Phase_2.png',
-  'Corona Sunbrew':              '/images/Corona_Phase_2.png',
-  'Rescue Club IPA':             '/images/rescue_club_phase_2.png',
+  'Heineken 0.0 6-Pack':         './images/Heineken_Phase_2.png',
+  'Budweiser Zero 6-Pack':       './images/budweiser_Phase_2.png',
+  'Corona Sunbrew 6-Pack':       './images/Corona_Phase_2.png',
+  "O'Doul's Golden 6-Pack":      './images/odouls_phase_2.jpg',
+  'Clausthaler Original 6-Pack': './images/Claushthaler_Phase_2.jpg',
+  'Rescue Club IPA 6-Pack':      './images/rescue_club_phase_2.png',
+  'Heineken 0.0':                './images/Heineken_Phase_2.png',
+  'Corona Sunbrew':              './images/Corona_Phase_2.png',
+  'Rescue Club IPA':             './images/rescue_club_phase_2.png',
 };
 
 const Phase2ReportPage = () => {
@@ -136,7 +136,6 @@ const Phase2ReportPage = () => {
       <Section id="ph2-overview" title={phase2Meta.title} subtitle={`${phase2Meta.subtitle} • ${phase2Meta.date}`}>
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-6">
-            <h1 className="text-3xl font-semibold text-slate-900">{phase2Meta.fullTitle}</h1>
             <div className="space-y-4">
               {phase2Meta.abstract.split('\n\n').map((para, i) => (
                 <p key={i} className="text-sm text-slate-600 text-justify">{para}</p>
@@ -190,7 +189,7 @@ const Phase2ReportPage = () => {
               <p className="mt-3 text-xs text-slate-500">n = 203</p>
             </div>
             <ImageLightbox
-              src="/images/Variant_A_Shelf.png"
+              src="./images/Variant_A_Shelf.png"
               alt="Variant A: Real-world pricing shelf"
               caption="Variant A: shelf with real-world market prices"
               className="max-h-[220px] w-full object-contain"
@@ -208,7 +207,7 @@ const Phase2ReportPage = () => {
               <p className="mt-3 text-xs text-slate-500">n = 210</p>
             </div>
             <ImageLightbox
-              src="/images/Variant_B_Shelf.png"
+              src="./images/Variant_B_Shelf.png"
               alt="Variant B: Price-equalised shelf"
               caption="Variant B: all products priced at $10.99"
               className="max-h-[220px] w-full object-contain"
@@ -226,7 +225,7 @@ const Phase2ReportPage = () => {
               <p className="mt-3 text-xs text-slate-500">n = 201</p>
             </div>
             <ImageLightbox
-              src="/images/Variant_C_Shelf.png"
+              src="./images/Variant_C_Shelf.png"
               alt="Variant C: Out-of-stock shelf"
               caption="Variant C: first-choice product shown as sold out"
               className="max-h-[220px] w-full object-contain"
@@ -426,7 +425,7 @@ const Phase2ReportPage = () => {
           <p className="text-sm text-slate-600 text-justify">Across all three experimental variants, mother brands, defined as non-alcoholic products from established alcoholic parent companies (Heineken 0.0, Corona Sunbrew, and Budweiser Zero), consistently captured the majority of product selections. In Variant A, mother brands collectively accounted for 58.1% of selections. In Variant B, that share rose to 63.3%, and in Variant C it stood at 56.7%. In all three cases, mother brand share was significantly above the 50% threshold that would be expected if consumers were choosing purely at random across the six available products, confirming that the mother-brand advantage observed in Study I holds in a fully competitive shelf setting.</p>
           <p className="text-sm text-slate-600 text-justify">Corona Sunbrew was the clear market leader in every variant, capturing 36.5% of selections in Variant A, 32.9% in Variant B, and 30.8% in Variant C. Its lead over all other brands was consistent and substantial, driven by strong consumer recognition of the Corona parent brand, distinctive packaging, and its unique vitamin D fortification positioning.</p>
           <p className="text-sm text-slate-600 text-justify">The most strategically important finding in this section is the price neutralization effect observed between Variant A and Variant B. When all six products were priced equally at $10.99, Heineken's selection share rose from 13.3% to 20.5%, a gain of 7.2 percentage points. This is the largest share shift of any brand between the two variants and it tells a clear story: Heineken 0.0 is underperforming in the real market not because consumers do not want it, but because its higher retail price is deterring purchase. When that price barrier is removed, Heineken's underlying brand equity expresses itself, and nearly one in five consumers chooses it. By contrast, O'Doul's, which benefits from its low real-world price point in Variant A, saw its share fall sharply from 11.3% to 5.2% when price was equalized, confirming that its appeal is largely price-driven rather than brand-driven.</p>
-          <p className="text-sm text-slate-600 text-justify">Rescue Club IPA, a non-mother brand with no established alcoholic parent, performed notably well across all three variants, capturing between 20.0% and 26.9% of selections. This is discussed further in the context of purchase factor analysis, where Rescue Club's strong performance is linked to its craft positioning and taste-forward branding rather than any mother-brand recognition.</p>
+          <p className="text-sm text-slate-600 text-justify">Rescue Club IPA, a non-mother brand with no established alcoholic parent, performed notably well across all three variants, capturing between 20.7% (Variant A), 20.0% (Variant B) and 26.9% (Variant C OOS 1st Choice) of selections. This is discussed further in the context of purchase factor analysis, where Rescue Club's strong performance is linked to its craft positioning and taste-forward branding rather than any mother-brand recognition.</p>
         </div>
 
         <div className="flex gap-3">
@@ -607,7 +606,7 @@ const Phase2ReportPage = () => {
               </Card>
               <Callout variant="insight" title="Gender Insight">
                 Gender is the strongest demographic predictor of mother-brand preference
-                (chi-sq p=0.016). The 11.5 pp gap is driven by female participants' elevated
+                (χ² p=0.016). The 11.5 pp gap is driven by female participants' elevated
                 preference for Corona Sunbrew: specifically its vitamin D positioning and packaging.
                 Male participants show higher rates for Rescue Club IPA and rank Price as #1
                 more frequently (11.4% vs 6.4%).
@@ -928,7 +927,7 @@ const Phase2ReportPage = () => {
                   />
                 )}
                 <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{item.brand}</p>
-                <p className="mt-2 text-sm text-slate-600 text-justify leading-relaxed">{item.profile}</p>
+                <p className="mt-2 text-sm text-slate-600 text-left leading-relaxed">{item.profile}</p>
                 <div className="mt-3 space-y-2">
                   {item.quotes.map(q => (
                     <blockquote key={q} className="border-l-2 border-slate-300 pl-3 text-xs italic text-slate-500">{q}</blockquote>
@@ -953,7 +952,7 @@ const Phase2ReportPage = () => {
         {/* Switching matrix: full width */}
         <div className="space-y-1">
           <ImageLightbox
-            src="/images/h4_switching_matrix.png"
+            src="./images/h4_switching_matrix.png"
             alt="Out-of-stock switching matrix"
             caption="Out-of-stock switching matrix (Variant C, n=201). Row percentages show where each brand's loyalists redirected."
             className="max-h-[420px] w-full object-contain"
@@ -967,7 +966,7 @@ const Phase2ReportPage = () => {
           <div className="space-y-4">
             <div className="space-y-1">
               <ImageLightbox
-                src="/images/h4_net_migration.png"
+                src="./images/h4_net_migration.png"
                 alt="Net brand migration under OOS conditions"
                 caption="Net brand migration under OOS conditions: first-choice vs replacement selection counts."
                 className="max-h-[260px] w-full object-contain"
@@ -1015,7 +1014,7 @@ const Phase2ReportPage = () => {
           <div className="space-y-4">
             <div className="space-y-1">
               <ImageLightbox
-                src="/images/h4_mother_nonmother_flow.png"
+                src="./images/h4_mother_nonmother_flow.png"
                 alt="Switching flows between mother and non-mother brand categories"
                 caption="Switching flows between mother and non-mother brand categories."
                 className="max-h-[260px] w-full object-contain"
@@ -1151,19 +1150,19 @@ const Phase2ReportPage = () => {
           {phase2Hypotheses.map((h) => {
             const images: Record<string, { src: string; caption: string }[]> = {
               H1: [
-                { src: '/images/h1_mother_aggregate.png',  caption: 'Aggregate mother-brand vs non-mother-brand selection share by variant. Null = 50/50.' },
-                { src: '/images/h1_brand_selection.png',   caption: 'Brand selection share by experimental variant. Dashed line = 16.7% uniform random baseline.' },
+                { src: './images/h1_mother_aggregate.png',  caption: 'Aggregate mother-brand vs non-mother-brand selection share by variant. Null = 50/50.' },
+                { src: './images/h1_brand_selection.png',   caption: 'Brand selection share by experimental variant. Dashed line = 16.7% uniform random baseline.' },
               ],
               H2: [
-                { src: '/images/h2_familiarity_scores.png',          caption: 'Mean familiarity scores and brand awareness rates across all six brands.' },
-                { src: '/images/h2_selection_by_familiarity.png',     caption: 'Heineken 0.0 selection rate by self-reported familiarity level, across all three variants.' },
+                { src: './images/h2_familiarity_scores.png',          caption: 'Mean familiarity scores and brand awareness rates across all six brands.' },
+                { src: './images/h2_selection_by_familiarity.png',     caption: 'Heineken 0.0 selection rate by self-reported familiarity level, across all three variants.' },
               ],
               H3: [
-                { src: '/images/h3_drinking_segment.png',  caption: 'Mother-brand selection rate by drinking segment (regular, occasional, non-drinkers) across variants.' },
-                { src: '/images/h3_segment_table.png',     caption: 'Mother-brand selection rate by drinking segment: summary table.' },
+                { src: './images/h3_drinking_segment.png',  caption: 'Mother-brand selection rate by drinking segment (regular, occasional, non-drinkers) across variants.' },
+                { src: './images/h3_segment_table.png',     caption: 'Mother-brand selection rate by drinking segment: summary table.' },
               ],
               H4: [
-                { src: '/images/h4_heineken_fallback.png',       caption: 'Where Heineken loyalists switch when OOS, and where Heineken replacement-choosers came from.' },
+                { src: './images/h4_heineken_fallback.png',       caption: 'Where Heineken loyalists switch when OOS, and where Heineken replacement-choosers came from.' },
               ],
             };
             const hImages = images[h.id] ?? [];
@@ -1301,7 +1300,8 @@ const Phase2ReportPage = () => {
                   <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{item.region}</p>
                   <p className="mt-1 text-2xl font-bold text-slate-800">{item.motherPct}%</p>
                   <p className="mt-1 text-xs text-slate-500">Mother brand share</p>
-                  <p className="mt-3 text-xs text-slate-600">{item.profile}</p>
+                  <p className="mt-2 text-xs text-slate-500">Price effect (A→B): <span className="font-semibold text-slate-700">{item.priceEffect}</span></p>
+                  <p className="mt-3 text-xs text-slate-600 text-left">{item.profile}</p>
                 </Card>
               ))}
             </div>
@@ -1452,14 +1452,14 @@ const Phase2ReportPage = () => {
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            { title: 'Gender: Mother-Brand Preference, But Not Heineken-Specific', body: 'Female respondents have 1.61 times the odds of choosing a mother brand versus male respondents (OR=1.61, p<0.05), but a negative Heineken-specific coefficient (−7.837, p<0.10).' },
-            { title: 'Age: Youngest Cohort Favors Mother Brands, Not Heineken', body: 'The 21–24 age group shows the highest mother-brand odds of any age band (OR=2.270 vs. the 25–34 reference) but the most negative Heineken coefficient (−14.167, p<0.10).' },
+            { title: 'Gender: Mother-Brand Preference', body: 'Female respondents have 1.61 times the odds of choosing a mother brand versus male respondents (OR=1.61, p<0.05).' },
+            { title: 'Age: Youngest Cohort Favors Mother Brands', body: 'The 21–24 age group shows the highest mother-brand odds of any age band (OR=2.270 vs. the 25–34 reference).' },
             { title: 'Alcohol Frequency: Heineken Skews Toward Lighter Drinkers', body: 'Heineken coefficients are highest among Never (5.939) and Less-than-once-a-month (8.109) drinkers relative to the 1–3 times/month reference, while mother-brand odds for the same groups are 0.610 and 1.400 respectively: infrequent drinkers lean toward Heineken specifically more than toward mother brands overall.' },
             { title: 'NA Beer Experience: Regular Users Rely Least on Mother-Brand Cues', body: 'Mother-brand odds decline as NA beer experience increases: Never=1.290, Tried once=1.410, Regularly (≥1x/month)=0.910, versus the Occasionally reference: the most experienced NA beer drinkers are the least reliant on mother-brand signaling.' },
             { title: 'Activity Level: Non-Linear Effect Peaking at Active', body: 'Active consumers (4–5 days/week) show the highest mother-brand odds (OR=1.320) and a strongly positive Heineken coefficient (10.553, p<0.10), while Very Active consumers (6–7 days/week) drop sharply on both (OR=0.49, p<0.10; Heineken coefficient −9.55, p<0.10): a non-linear pattern across activity levels.' }
           ].map(item => (
             <Card key={item.title} className="flex flex-col gap-2">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 leading-snug">{item.title}</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 leading-snug text-left">{item.title}</p>
               <p className="text-sm text-slate-600 text-left leading-relaxed">{item.body}</p>
             </Card>
           ))}
@@ -1552,3 +1552,5 @@ const Phase2ReportPage = () => {
 };
 
 export default Phase2ReportPage;
+
+

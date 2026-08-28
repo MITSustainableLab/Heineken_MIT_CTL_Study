@@ -3,7 +3,7 @@
     { "label": "Corona Sunbrew", "varA": 36.5, "varB": 32.9, "varC": 30.8, "type": "mother" },
     { "label": "Rescue Club IPA", "varA": 20.7, "varB": 20.0, "varC": 26.9, "type": "non-mother" },
     { "label": "Heineken 0.0",    "varA": 13.3, "varB": 20.5, "varC": 17.4, "type": "mother" },
-    { "label": "O'Doul's Golden", "varA": 11.3, "varB": 5.7,  "varC": 9.0,  "type": "non-mother" },
+    { "label": "O'Doul's Golden", "varA": 11.3, "varB": 5.2,  "varC": 9.0,  "type": "non-mother" },
     { "label": "Budweiser Zero",  "varA": 9.9,  "varB": 8.6,  "varC": 8.5,  "type": "mother" },
     { "label": "Clausthaler",     "varA": 8.3,  "varB": 12.4, "varC": 7.5,  "type": "non-mother" }
   ],
@@ -23,7 +23,7 @@
   ],
   "priceNeutralizationNotes": [
     "Heineken's share rises from 13.3% (Var A) to 20.5% (Var B), a gain of +7.2 percentage points, when price is equalized.",
-    "O'Doul's collapses from 11.3% to 5.7% when price is equalized: confirming its Variant A share was almost entirely price-driven.",
+    "O'Doul's collapses from 11.3% to 5.2% when price is equalized: confirming its Variant A share was almost entirely price-driven.",
     "Clausthaler gains from 8.3% to 12.4% under price neutralization, consistent with craft/independent positioning benefiting from equal-footing comparisons.",
     "Rescue Club remains stable (20.7% → 20.0%), confirming its competitive strength is category-driven (IPA novelty) rather than price-driven."
   ],

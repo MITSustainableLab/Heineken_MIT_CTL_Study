@@ -19,10 +19,10 @@
     { "label": "Rescue Club IPA", "northeast": 26.6, "midwest": 25.2, "south": 11.9, "west": 25.0 }
   ],
   "regionalInsights": [
-    { "region": "South",     "motherPct": 67.2, "priceEffect": "-7.1pp (reversal)", "oosEffect": "-4pp", "profile": "Conviction market. Consumers choose by brand heritage, not price. Price promotions are unnecessary. Corona dominant (40%). Maintain salience." },
-    { "region": "Midwest",   "motherPct": 60.4, "priceEffect": "+9.6pp",            "oosEffect": "-8pp", "profile": "Category entry market. Highest NA-beer-naive share (37.4%). Trial-driving distribution and first-purchase incentives are optimal." },
-    { "region": "West",      "motherPct": 55.9, "priceEffect": "+10.4pp",           "oosEffect": "+4pp", "profile": "Brand equity market. Heineken's strongest individual market (21%). Premium/import positioning and standalone brand equity work here." },
-    { "region": "Northeast", "motherPct": 54.0, "priceEffect": "+9.9pp",            "oosEffect": "+6pp", "profile": "Craft challenge market. Rescue Club 27% + Clausthaler 14%. Packaging innovation and taste-forward campaigns to convert latent demand." }
+    { "region": "South",     "motherPct": 67.2, "priceEffect": "-7.1pp", "oosEffect": "-4pp", "profile": "Consumers here buy on brand heritage, not price - equalizing prices actually lowered mother-brand share." },
+    { "region": "Midwest",   "motherPct": 60.4, "priceEffect": "+9.6pp",            "oosEffect": "-8pp", "profile": "This region has the largest share of consumers who have never tried non-alcoholic beer (37.4%)." },
+    { "region": "West",      "motherPct": 55.9, "priceEffect": "+10.4pp",           "oosEffect": "+4pp", "profile": "Heineken's strongest individual region, capturing 21% of selections here." },
+    { "region": "Northeast", "motherPct": 54.0, "priceEffect": "+9.9pp",            "oosEffect": "+6pp", "profile": "Craft-style alternatives do well here, with Rescue Club at 27% and Clausthaler at 14%." }
   ],
   "purchaseFactorsByRegion": [
     { "label": "Northeast", "taste": 51.1, "brandTrust": 24.5, "appearance": 18.0, "price": 2.2,  "health": 4.3 },
